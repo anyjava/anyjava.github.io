@@ -1,3 +1,16 @@
+---
+layout  : wiki
+title   : Spring Boot Actuator
+summary : Spring Boot Actuator 활용에 관한 모든것
+date    : 2018-08-21 18:28:36 +0900
+updated : 2018-08-21 18:32:22 +0900
+tags    :
+toc     : true
+public  : true
+parent  :
+latex   : false
+---
+
 # Spring Boot Actuactor
 
 ## 2.0 Migration 
