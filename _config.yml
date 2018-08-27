@@ -1,0 +1,52 @@
+# Site settings
+title: anyjava 보조 기억 장치
+url: "https://anyjava.github.io"
+baseurl: ""
+description: >
+    anyjava 블로그
+
+# My information
+email: sht21c@gmail.com
+author: anyjava
+profile: 또라이개발자
+twitter_username: anyjava
+github_username: anyjava
+disqus_shortname: anyjava
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+disqus:
+  id: 
+  shortname: 
+
+google_analytics:
+  ua: 
+
+google_adsense:
+  client: ca-pub-9628605866926742
+
+blame: "https://github.com/anyjava/anyjava.github.io/blame/master/_wiki"
+edit: "https://github.com/anyjava/anyjava.github.io/edit/master/_wiki"
+issue: "https://github.com/anyjava/anyjava.github.io/issues/new"

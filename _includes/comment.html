@@ -1,0 +1,11 @@
+{% if page.comment != false and site.disqus_shortname %}
+    <div class="post-comments">
+        <script src="https://utteranc.es/client.js"
+        repo="anyjava/anyjava.github.io"
+        branch="master"
+        issue-term="pathname"
+				crossorigin="anonymous"
+        async>
+</script>
+    </div>
+{% endif %}
