@@ -1,1 +1,2 @@
-{}
+jpa:
+    - {fileName: JPA}

@@ -4,7 +4,15 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-08-21 18:28:45 +0900'
+    updated: '2018-08-28 01:24:52 +0900'
+    children: []
+JPA:
+    type: wiki
+    title: JPA
+    summary: 'JPA 활용에 대한 모든 것'
+    parent: ""
+    url: /wiki/JPA
+    updated: '2018-08-28 09:36:04 +0900'
     children: []
 Linux:
     type: wiki
@@ -14,13 +22,21 @@ Linux:
     url: /wiki/Linux
     updated: '2018-08-21 18:31:19 +0900'
     children: []
+Logging:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/Logging
+    updated: '2018-08-28 01:54:27 +0900'
+    children: []
 Spring:
     type: wiki
     title: Spring
     summary: 'Spring 활용에 관한 모든것'
     parent: null
     url: /wiki/Spring
-    updated: '2018-08-21 18:31:49 +0900'
+    updated: '2018-08-28 09:31:10 +0900'
     children: []
 Srping_Boot_Actuator:
     type: wiki
