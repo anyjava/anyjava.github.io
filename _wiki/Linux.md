@@ -3,11 +3,11 @@ layout  : wiki
 title   : Linux 
 summary : linux 활용에 관한 모든것
 date    : 2018-08-21 18:28:36 +0900
-updated : 2018-09-03 01:28:35 +0900
+updated : 2018-09-04 08:53:05 +0900
 tags    : linux
 toc     : true
 public  : true
-parent  :
+parent  : Linux
 latex   : false
 ---
 

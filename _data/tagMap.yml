@@ -1,2 +1,6 @@
+devops:
+    - {fileName: DevOps}
 jpa:
     - {fileName: JPA}
+linux:
+    - {fileName: Linux}

@@ -1,10 +1,26 @@
+'CORS (Cross Origin Resource Sharing)':
+    type: wiki
+    title: 'Cross Origin Resource Sharing'
+    summary: 'Cross Origin Resource Sharing'
+    parent: Web
+    url: '/wiki/CORS (Cross Origin Resource Sharing)'
+    updated: '2018-09-04 08:40:23 +0900'
+    children: []
+DevOps:
+    type: wiki
+    title: DevOps
+    summary: 'DevOps 관한 모든것'
+    parent: ""
+    url: /wiki/DevOps
+    updated: '2018-09-03 00:52:52 +0900'
+    children: []
 index:
     type: wiki
     title: index
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-08-28 01:24:52 +0900'
+    updated: '2018-09-04 08:39:36 +0900'
     children: []
 JPA:
     type: wiki
@@ -20,7 +36,7 @@ Linux:
     summary: 'linux 활용에 관한 모든것'
     parent: null
     url: /wiki/Linux
-    updated: '2018-08-21 18:31:19 +0900'
+    updated: '2018-09-03 01:28:35 +0900'
     children: []
 Logging:
     type: wiki
@@ -46,3 +62,11 @@ Srping_Boot_Actuator:
     url: /wiki/Srping_Boot_Actuator
     updated: '2018-08-21 18:32:22 +0900'
     children: []
+Web:
+    type: wiki
+    title: Web
+    summary: 'Web 관련 내용'
+    parent: index
+    url: /wiki/Web
+    updated: '2018-09-04 08:43:37 +0900'
+    children: ['CORS (Cross Origin Resource Sharing)']
