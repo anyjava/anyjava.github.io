@@ -1,6 +1,14 @@
 devops:
     - {fileName: DevOps}
+docker:
+    - {fileName: Docker}
 jpa:
     - {fileName: JPA}
 linux:
     - {fileName: Linux}
+slf4j:
+    - {fileName: Logging}
+spring:
+    - {fileName: Spring}
+'spring,springboot,actuactor':
+    - {fileName: Spring_Boot_Actuator}
