@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 
+title   : Spring Logging
 summary : 
 date    : 2018-08-28 01:49:43 +0900
-updated : 2018-08-28 01:54:27 +0900
-tags    : 
+updated : 2018-09-05 09:25:23 +0900
+tags    : slf4j
 toc     : true
 public  : true
-parent  : 
+parent  : Spring
 latex   : false
 ---
 * TOC

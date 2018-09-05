@@ -3,11 +3,11 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2018-08-28 09:36:04 +0900
+updated : 2018-09-05 08:33:18 +0900
 tags    : jpa
 toc     : true
 public  : true
-parent  : 
+parent  : Spring
 latex   : false
 ---
 * TOC
