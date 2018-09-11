@@ -20,7 +20,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2018-09-06 02:07:10 +0900'
+    updated: '2018-09-06 02:09:35 +0900'
     children: []
 index:
     type: wiki
@@ -36,7 +36,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2018-09-05 08:33:18 +0900'
+    updated: '2018-09-11 23:54:39 +0900'
     children: []
 Linux:
     type: wiki
@@ -44,7 +44,7 @@ Linux:
     summary: 'linux 활용에 관한 모든것'
     parent: DevOps
     url: /wiki/Linux
-    updated: '2018-09-05 09:25:39 +0900'
+    updated: '2018-09-11 09:37:38 +0900'
     children: []
 Logging:
     type: wiki

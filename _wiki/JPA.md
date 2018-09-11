@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2018-09-05 08:33:18 +0900
+updated : 2018-09-11 23:54:39 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -22,3 +22,13 @@ latex   : false
 * 2. @EmbeddedId 를 통해서 복합키를 위해 class 를 이용하는 방법
 	* 선택해야하는 상황 : 단순 seq 의 조합으로 복합키가 이루어 졌을 경우, depth 구조가 복합하지 않은 경우
 
+## Entity 연관관계 매핑
+
+* 연관관계가 없음 0 으로 나타내고 있을떄,
+	* Hibernate 의 `@JoinColumnOrFormular` 를 사용한다.
+```
+ @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumnOrFormula(column = @JoinColumn(name = "Ref_Pay_No", nullable = false),
+            formula = @JoinFormula(value="CASE Ref_Pay_No WHEN 0 THEN NULL ELSE Ref_Pay_No END"))
+    private Payment originPayment;
+```
