@@ -2,6 +2,12 @@ devops:
     - {fileName: DevOps}
 docker:
     - {fileName: Docker}
+'json,':
+    - {fileName: Jackson}
+jackson:
+    - {fileName: Jackson}
+java:
+    - {fileName: Java}
 jpa:
     - {fileName: JPA}
 linux:
