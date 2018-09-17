@@ -2,12 +2,15 @@ devops:
     - {fileName: DevOps}
 docker:
     - {fileName: Docker}
+'enum,':
+    - {fileName: Enum}
+java:
+    - {fileName: Enum}
+    - {fileName: Java}
 'json,':
     - {fileName: Jackson}
 jackson:
     - {fileName: Jackson}
-java:
-    - {fileName: Java}
 jpa:
     - {fileName: JPA}
 linux:

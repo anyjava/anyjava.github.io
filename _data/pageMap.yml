@@ -22,13 +22,21 @@ Docker:
     url: /wiki/Docker
     updated: '2018-09-06 02:09:35 +0900'
     children: []
+Enum:
+    type: wiki
+    title: Enum
+    summary: 'Enum 사용법 및 팁'
+    parent: Java
+    url: /wiki/Enum
+    updated: '2018-09-18 01:47:53 +0900'
+    children: []
 index:
     type: wiki
     title: index
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-09-13 08:37:20 +0900'
+    updated: '2018-09-18 01:38:37 +0900'
     children: []
 Jackson:
     type: wiki
@@ -45,7 +53,7 @@ Java:
     parent: index
     url: /wiki/Java
     updated: '2018-09-13 08:36:04 +0900'
-    children: [Jackson]
+    children: [Enum, Jackson]
 JPA:
     type: wiki
     title: JPA
