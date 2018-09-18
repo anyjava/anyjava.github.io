@@ -1,3 +1,11 @@
+BeanScope:
+    type: wiki
+    title: BeanScope
+    summary: 'Bean scope 에 대한 설명'
+    parent: Spring
+    url: /wiki/BeanScope
+    updated: '2018-09-18 20:11:14 +0900'
+    children: []
 'CORS (Cross Origin Resource Sharing)':
     type: wiki
     title: 'Cross Origin Resource Sharing'
@@ -28,7 +36,7 @@ Enum:
     summary: 'Enum 사용법 및 팁'
     parent: Java
     url: /wiki/Enum
-    updated: '2018-09-18 01:47:53 +0900'
+    updated: '2018-09-18 01:50:39 +0900'
     children: []
 index:
     type: wiki
@@ -36,7 +44,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-09-18 01:38:37 +0900'
+    updated: '2018-09-18 20:12:49 +0900'
     children: []
 Jackson:
     type: wiki
@@ -53,7 +61,7 @@ Java:
     parent: index
     url: /wiki/Java
     updated: '2018-09-13 08:36:04 +0900'
-    children: [Enum, Jackson]
+    children: [Enum, Jackson, Optional, PostContrunct]
 JPA:
     type: wiki
     title: JPA
@@ -78,6 +86,22 @@ Logging:
     url: /wiki/Logging
     updated: '2018-09-05 09:25:23 +0900'
     children: []
+Optional:
+    type: wiki
+    title: Optional
+    summary: 'Optional 사용법 및 팁'
+    parent: Java
+    url: /wiki/Optional
+    updated: '2018-09-18 20:00:21 +0900'
+    children: []
+PostContrunct:
+    type: wiki
+    title: 'PostConstruct Annotation'
+    summary: 'PostConstruct annotion 의 사용법 용례'
+    parent: Java
+    url: /wiki/PostContrunct
+    updated: '2018-09-18 20:13:23 +0900'
+    children: []
 Spring:
     type: wiki
     title: Spring
@@ -85,7 +109,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [JPA, Logging, Spring_Boot_Actuator]
+    children: [BeanScope, JPA, Logging, Spring_Boot_Actuator]
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'

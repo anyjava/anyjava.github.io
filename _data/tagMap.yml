@@ -1,3 +1,7 @@
+'spring,':
+    - {fileName: BeanScope}
+bean_scope:
+    - {fileName: BeanScope}
 devops:
     - {fileName: DevOps}
 docker:
@@ -17,6 +21,14 @@ linux:
     - {fileName: Linux}
 slf4j:
     - {fileName: Logging}
+'Java,':
+    - {fileName: Optional}
+optional:
+    - {fileName: Optional}
+'java,':
+    - {fileName: PostContrunct}
+annoatation:
+    - {fileName: PostContrunct}
 spring:
     - {fileName: Spring}
 'spring,springboot,actuactor':
