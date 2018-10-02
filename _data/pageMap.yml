@@ -28,7 +28,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2018-09-06 02:09:35 +0900'
+    updated: '2018-10-02 00:44:29 +0900'
     children: []
 Enum:
     type: wiki
@@ -44,7 +44,15 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-09-18 20:12:49 +0900'
+    updated: '2018-10-02 22:30:57 +0900'
+    children: []
+Interface:
+    type: wiki
+    title: 'java interface'
+    summary: 'inteface 는 어떨때 만들어야 햐는가?'
+    parent: Java
+    url: /wiki/Interface
+    updated: '2018-10-02 22:34:56 +0900'
     children: []
 Jackson:
     type: wiki
@@ -61,7 +69,7 @@ Java:
     parent: index
     url: /wiki/Java
     updated: '2018-09-13 08:36:04 +0900'
-    children: [Enum, Jackson, Optional, PostContrunct]
+    children: [Enum, Interface, Jackson, Optional, PostContrunct]
 JPA:
     type: wiki
     title: JPA
@@ -132,5 +140,5 @@ Web:
     summary: 'anyjava wiki index'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2018-09-19 10:01:33 +0900'
+    updated: '2018-10-02 09:23:19 +0900'
     children: []

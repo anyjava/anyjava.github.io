@@ -11,6 +11,13 @@ docker:
 java:
     - {fileName: Enum}
     - {fileName: Java}
+'java,':
+    - {fileName: Interface}
+    - {fileName: PostContrunct}
+'oop,':
+    - {fileName: Interface}
+interface:
+    - {fileName: Interface}
 'json,':
     - {fileName: Jackson}
 jackson:
@@ -25,8 +32,6 @@ slf4j:
     - {fileName: Optional}
 optional:
     - {fileName: Optional}
-'java,':
-    - {fileName: PostContrunct}
 annoatation:
     - {fileName: PostContrunct}
 spring:

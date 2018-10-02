@@ -3,6 +3,7 @@
 - devops
 - docker
 - 'enum,'
+- interface
 - jackson
 - java
 - 'java,'
@@ -10,6 +11,7 @@
 - jpa
 - 'json,'
 - linux
+- 'oop,'
 - optional
 - slf4j
 - spring
