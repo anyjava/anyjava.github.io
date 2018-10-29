@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2018-10-02 22:36:36 +0900
+updated : 2018-10-29 12:55:36 +0900
 tags    :
 toc     : true
 public  : true
@@ -29,4 +29,6 @@ latex   : false
 	* [[Docker]]
 	* [[성능튜닝]]
 * [[Web]]
+* [[SecureCoding]] 
 	* [[CORS (Cross Origin Resource Sharing)]]
+	* [[XSS]]

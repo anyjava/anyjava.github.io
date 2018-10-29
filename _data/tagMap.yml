@@ -36,10 +36,16 @@ optional:
     - {fileName: Optional}
 annoatation:
     - {fileName: PostContrunct}
+secure:
+    - {fileName: SecureCoding}
 spring:
     - {fileName: Spring}
 'spring,springboot,actuactor':
     - {fileName: Spring_Boot_Actuator}
+'secure,':
+    - {fileName: XSS}
+xss:
+    - {fileName: XSS}
 tools:
     - {fileName: 개발환경세팅}
 성능:

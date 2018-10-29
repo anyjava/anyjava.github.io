@@ -10,9 +10,9 @@ BeanScope:
     type: wiki
     title: 'Cross Origin Resource Sharing'
     summary: 'Cross Origin Resource Sharing'
-    parent: Web
+    parent: SecureCoging
     url: '/wiki/CORS (Cross Origin Resource Sharing)'
-    updated: '2018-09-04 08:53:26 +0900'
+    updated: '2018-10-29 12:54:23 +0900'
     children: []
 DevOps:
     type: wiki
@@ -44,7 +44,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-10-02 22:36:36 +0900'
+    updated: '2018-10-29 12:55:36 +0900'
     children: []
 Interface:
     type: wiki
@@ -110,6 +110,14 @@ PostContrunct:
     url: /wiki/PostContrunct
     updated: '2018-09-18 20:13:23 +0900'
     children: []
+SecureCoding:
+    type: wiki
+    title: 'Secure Coding'
+    summary: '소프트웨어 개발 보안'
+    parent: index
+    url: /wiki/SecureCoding
+    updated: '2018-10-29 12:53:47 +0900'
+    children: [XSS]
 Spring:
     type: wiki
     title: Spring
@@ -133,7 +141,15 @@ Web:
     parent: index
     url: /wiki/Web
     updated: '2018-09-04 08:43:37 +0900'
-    children: ['CORS (Cross Origin Resource Sharing)']
+    children: []
+XSS:
+    type: wiki
+    title: 'XSS (cross-site scripting)'
+    summary: '크로스 사이트 스크립팅'
+    parent: SecureCoding
+    url: /wiki/XSS
+    updated: '2018-10-29 13:02:42 +0900'
+    children: []
 개발환경세팅:
     type: wiki
     title: 개발환경세팅
