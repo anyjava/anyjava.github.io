@@ -1,3 +1,11 @@
+Bean_Validation:
+    type: wiki
+    title: 'Bean Validation'
+    summary: 'Spring Bean Validation 에 관한 기록'
+    parent: Spring
+    url: /wiki/Bean_Validation
+    updated: '2018-11-07 08:24:29 +0900'
+    children: []
 BeanScope:
     type: wiki
     title: BeanScope
@@ -44,7 +52,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-10-29 12:55:36 +0900'
+    updated: '2018-11-07 08:16:58 +0900'
     children: []
 Interface:
     type: wiki
@@ -125,7 +133,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [BeanScope, JPA, Logging, Spring_Boot_Actuator]
+    children: [Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator]
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -156,7 +164,7 @@ XSS:
     summary: 'anyjava wiki index'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2018-10-02 09:23:19 +0900'
+    updated: '2018-11-01 01:46:51 +0900'
     children: []
 성능튜닝:
     type: wiki

@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2018-10-29 12:55:36 +0900
+updated : 2018-11-07 08:16:58 +0900
 tags    :
 toc     : true
 public  : true
@@ -24,6 +24,7 @@ latex   : false
 	* [[Spring_Boot_Actuator]]
 	* [[JPA]] 
 	* [[BeanScope]]
+	* [[Bean_Validation]]
 * [[DevOps]]
 	* [[Linux]]
 	* [[Docker]]

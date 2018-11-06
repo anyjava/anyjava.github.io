@@ -1,6 +1,11 @@
 'spring,':
+    - {fileName: Bean_Validation}
     - {fileName: BeanScope}
     - {fileName: 성능튜닝}
+'bean,':
+    - {fileName: Bean_Validation}
+validation:
+    - {fileName: Bean_Validation}
 bean_scope:
     - {fileName: BeanScope}
 devops:
