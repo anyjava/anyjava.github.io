@@ -1,6 +1,7 @@
 'spring,':
     - {fileName: Bean_Validation}
     - {fileName: BeanScope}
+    - {fileName: 기본적인내용}
     - {fileName: 성능튜닝}
 'bean,':
     - {fileName: Bean_Validation}
@@ -53,5 +54,7 @@ xss:
     - {fileName: XSS}
 tools:
     - {fileName: 개발환경세팅}
+tip:
+    - {fileName: 기본적인내용}
 성능:
     - {fileName: 성능튜닝}

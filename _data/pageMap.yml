@@ -52,7 +52,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-11-07 08:16:58 +0900'
+    updated: '2018-11-07 09:52:50 +0900'
     children: []
 Interface:
     type: wiki
@@ -133,7 +133,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator]
+    children: [Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, 기본적인내용]
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -165,6 +165,14 @@ XSS:
     parent: index
     url: /wiki/개발환경세팅
     updated: '2018-11-01 01:46:51 +0900'
+    children: []
+기본적인내용:
+    type: wiki
+    title: 'Spring 기본적인 내용'
+    summary: 'Spring 에 관련한 소소한 팁들을 정리합니다.'
+    parent: Spring
+    url: /wiki/기본적인내용
+    updated: '2018-11-07 09:56:27 +0900'
     children: []
 성능튜닝:
     type: wiki
