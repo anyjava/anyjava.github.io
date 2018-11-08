@@ -3,7 +3,7 @@ layout  : wiki
 title   : Bean Validation
 summary : Spring Bean Validation 에 관한 기록
 date    : 2018-11-07 08:16:58 +0900
-updated : 2018-11-07 08:24:29 +0900
+updated : 2018-11-08 09:54:45 +0900
 tags    : spring, bean, validation
 toc     : true
 public  : true
@@ -38,14 +38,15 @@ latex   : false
 ```
 @RestControllerAdvice("controller")
 public class ApiExceptionAdvice {
+
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<ErrorResponse> handleBindException(MethodArgumentNotValidException ex) {
-		String errorCodes = errors.getAllErrors().stream()
-				.map(error -> error.getCodes()[0])
-				.collect(Collectors.joining(","));
+		String errorMsg= ex.getBindingResult().getAllErrors().stream()
+						.map(error -> error.getObjectName() + " : " + error.getDefaultMessage() + error.toString())
+						.collect(Collectors.joining(", "));
 		return ResponseEntity
 				.status(HttpStatus.BAD_REQUEST)
-				.body(new ErrorResponse("errorCodes = " + errorCodes));
+				.body(new ErrorResponse("errorCodes = " + errorMsg));
 	}
 }
 ```
