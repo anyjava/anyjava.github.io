@@ -1,4 +1,5 @@
 - annoatation
+- 'async,'
 - bean_scope
 - 'bean,'
 - devops
@@ -20,6 +21,7 @@
 - spring
 - 'spring,'
 - 'spring,springboot,actuactor'
+- task_executor
 - tip
 - tools
 - validation
