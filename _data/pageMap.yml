@@ -4,7 +4,7 @@ Async:
     summary: 'Spring 에서의 비동기 처리 방법'
     parent: Spring
     url: /wiki/Async
-    updated: '2018-11-23 19:29:59 +0900'
+    updated: '2018-11-23 19:54:43 +0900'
     children: []
 Bean_Validation:
     type: wiki
@@ -60,7 +60,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-11-19 14:58:51 +0900'
+    updated: '2018-11-27 09:11:40 +0900'
     children: []
 Interface:
     type: wiki
@@ -141,7 +141,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, WebFlux, 기본적인내용]
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -157,6 +157,14 @@ Web:
     parent: index
     url: /wiki/Web
     updated: '2018-09-04 08:43:37 +0900'
+    children: []
+WebFlux:
+    type: wiki
+    title: WebFlux
+    summary: 'WebFlux 에 대한 내용 정리'
+    parent: Spring
+    url: /wiki/WebFlux
+    updated: '2018-11-27 09:17:28 +0900'
     children: []
 XSS:
     type: wiki
