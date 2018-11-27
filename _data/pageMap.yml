@@ -60,7 +60,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-11-27 09:11:40 +0900'
+    updated: '2018-11-28 08:27:16 +0900'
     children: []
 Interface:
     type: wiki
@@ -134,6 +134,14 @@ SecureCoding:
     url: /wiki/SecureCoding
     updated: '2018-10-29 12:53:47 +0900'
     children: [XSS]
+spock:
+    type: wiki
+    title: spock
+    summary: 'spock 으로 테스트 작성 하기'
+    parent: Test_Framework
+    url: /wiki/spock
+    updated: '2018-11-28 08:55:52 +0900'
+    children: []
 Spring:
     type: wiki
     title: Spring
@@ -150,6 +158,14 @@ Spring_Boot_Actuator:
     url: /wiki/Spring_Boot_Actuator
     updated: '2018-09-05 09:24:58 +0900'
     children: []
+Test_Framework:
+    type: wiki
+    title: 'Test Framework'
+    summary: 'spock, xUnit'
+    parent: index
+    url: /wiki/Test_Framework
+    updated: '2018-11-28 08:25:51 +0900'
+    children: [spock]
 Web:
     type: wiki
     title: Web

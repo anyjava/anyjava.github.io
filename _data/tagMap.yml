@@ -50,10 +50,22 @@ annoatation:
     - {fileName: PostContrunct}
 secure:
     - {fileName: SecureCoding}
+'spock,':
+    - {fileName: spock}
+    - {fileName: Test_Framework}
+'test,':
+    - {fileName: spock}
+    - {fileName: Test_Framework}
+tdd:
+    - {fileName: spock}
 spring:
     - {fileName: Spring}
 'spring,springboot,actuactor':
     - {fileName: Spring_Boot_Actuator}
+'tdd,':
+    - {fileName: Test_Framework}
+junit:
+    - {fileName: Test_Framework}
 webflux:
     - {fileName: WebFlux}
 'secure,':
