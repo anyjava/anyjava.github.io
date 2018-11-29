@@ -82,6 +82,10 @@ public: true
 
 <hr/>
 
+	<div>
+ 		<h2 style="text-align: center;">
+전체 경력 : <span id="year"></span> 년 <span id="month"></span> 개월</h2>
+	</div>
 	<h4>우아한형제들</h4>
 		<ul>
 			<li><a href="https://woowahan.com/">https://woowahan.com/</a></li>
@@ -147,3 +151,12 @@ public: true
 	</table>
 
 </div>
+
+<script type="text/javascript">
+	let startDate = new Date("2009", "6", "1");
+	const diff = new Date() - startDate;
+	const diffMonth = parseInt(diff / (24*60*60*1000*30));
+
+	document.getElementById("year").innerHTML = parseInt(diffMonth / 12);
+	document.getElementById("month").innerHTML = diffMonth % 12;
+</script>
