@@ -38,6 +38,14 @@ jackson:
     - {fileName: Jackson}
 jpa:
     - {fileName: JPA}
+'devops,':
+    - {fileName: Jvm}
+'jvm,':
+    - {fileName: Jvm}
+'gc,':
+    - {fileName: Jvm}
+thread:
+    - {fileName: Jvm}
 linux:
     - {fileName: Linux}
 slf4j:

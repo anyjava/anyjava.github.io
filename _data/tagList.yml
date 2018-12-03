@@ -3,8 +3,10 @@
 - bean_scope
 - 'bean,'
 - devops
+- 'devops,'
 - docker
 - 'enum,'
+- 'gc,'
 - interface
 - jackson
 - java
@@ -13,6 +15,7 @@
 - jpa
 - 'json,'
 - junit
+- 'jvm,'
 - linux
 - 'oop,'
 - optional
@@ -27,6 +30,7 @@
 - tdd
 - 'tdd,'
 - 'test,'
+- thread
 - tip
 - tools
 - validation
