@@ -2,6 +2,8 @@
 - 'async,'
 - bean_scope
 - 'bean,'
+- 'db,'
+- dbms
 - devops
 - 'devops,'
 - docker
@@ -17,6 +19,7 @@
 - junit
 - 'jvm,'
 - linux
+- 'ms-sql,'
 - 'oop,'
 - optional
 - secure

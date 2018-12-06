@@ -30,6 +30,14 @@ BeanScope:
     url: '/wiki/CORS (Cross Origin Resource Sharing)'
     updated: '2018-10-29 12:54:23 +0900'
     children: []
+DBMS:
+    type: wiki
+    title: DBMS
+    summary: ""
+    parent: index
+    url: /wiki/DBMS
+    updated: '2018-12-06 18:54:36 +0900'
+    children: [MS-SQL]
 DevOps:
     type: wiki
     title: DevOps
@@ -60,7 +68,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-12-03 19:33:16 +0900'
+    updated: '2018-12-06 18:57:05 +0900'
     children: []
 Interface:
     type: wiki
@@ -97,10 +105,10 @@ JPA:
 Jvm:
     type: wiki
     title: 'JVM 성능 튜닝'
-    summary: 'JVM 관련하여 GC 종료, thread dump 보는 방법등을 정리'
+    summary: 'JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리'
     parent: DevOps
     url: /wiki/Jvm
-    updated: '2018-12-03 19:40:16 +0900'
+    updated: '2018-12-03 19:45:33 +0900'
     children: []
 Linux:
     type: wiki
@@ -117,6 +125,14 @@ Logging:
     parent: Spring
     url: /wiki/Logging
     updated: '2018-09-05 09:25:23 +0900'
+    children: []
+MS-SQL:
+    type: wiki
+    title: MS-SQL
+    summary: 'MS-SQL 관련 용어들'
+    parent: DBMS
+    url: /wiki/MS-SQL
+    updated: '2018-12-06 19:01:50 +0900'
     children: []
 Optional:
     type: wiki

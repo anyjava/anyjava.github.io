@@ -50,6 +50,12 @@ linux:
     - {fileName: Linux}
 slf4j:
     - {fileName: Logging}
+'db,':
+    - {fileName: MS-SQL}
+'ms-sql,':
+    - {fileName: MS-SQL}
+dbms:
+    - {fileName: MS-SQL}
 'Java,':
     - {fileName: Optional}
 optional:
