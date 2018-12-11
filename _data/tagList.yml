@@ -1,5 +1,6 @@
 - annoatation
 - 'async,'
+- batch
 - bean_scope
 - 'bean,'
 - 'db,'

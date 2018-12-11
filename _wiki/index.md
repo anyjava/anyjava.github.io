@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2018-12-06 18:57:05 +0900
+updated : 2018-12-11 21:08:18 +0900
 tags    :
 toc     : true
 public  : true
@@ -28,6 +28,7 @@ latex   : false
 	* [[Bean_Validation]]
 	* [[Async]]
 	* [[WebFlux]]
+	* [[Spring-Batch]]
 * [[Test_Framework]]
   * [[spock]] 
 * [[DBMS]] 

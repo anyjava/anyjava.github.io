@@ -68,7 +68,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-12-06 18:57:05 +0900'
+    updated: '2018-12-11 21:08:18 +0900'
     children: []
 Interface:
     type: wiki
@@ -173,7 +173,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, WebFlux, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -181,6 +181,14 @@ Spring_Boot_Actuator:
     parent: Spring
     url: /wiki/Spring_Boot_Actuator
     updated: '2018-09-05 09:24:58 +0900'
+    children: []
+Spring-Batch:
+    type: wiki
+    title: 'Spring Batch'
+    summary: 'Spring Batch 에 대한 사용방법 및 팁들을 정리 한다.'
+    parent: Spring
+    url: /wiki/Spring-Batch
+    updated: '2018-12-11 21:25:56 +0900'
     children: []
 Test_Framework:
     type: wiki

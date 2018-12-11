@@ -2,6 +2,7 @@
     - {fileName: Async}
     - {fileName: Bean_Validation}
     - {fileName: BeanScope}
+    - {fileName: Spring-Batch}
     - {fileName: WebFlux}
     - {fileName: 기본적인내용}
     - {fileName: 성능튜닝}
@@ -76,6 +77,8 @@ spring:
     - {fileName: Spring}
 'spring,springboot,actuactor':
     - {fileName: Spring_Boot_Actuator}
+batch:
+    - {fileName: Spring-Batch}
 'tdd,':
     - {fileName: Test_Framework}
 junit:
