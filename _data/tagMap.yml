@@ -49,6 +49,7 @@ thread:
     - {fileName: Jvm}
 linux:
     - {fileName: Linux}
+    - {fileName: Linux}
 slf4j:
     - {fileName: Logging}
 'db,':
@@ -63,6 +64,10 @@ optional:
     - {fileName: Optional}
 annoatation:
     - {fileName: PostContrunct}
+'jpa,':
+    - {fileName: QueryDsl}
+querydsl:
+    - {fileName: QueryDsl}
 secure:
     - {fileName: SecureCoding}
 'spock,':

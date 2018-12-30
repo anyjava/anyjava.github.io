@@ -13,9 +13,10 @@
 - interface
 - jackson
 - java
-- 'java,'
 - 'Java,'
+- 'java,'
 - jpa
+- 'jpa,'
 - 'json,'
 - junit
 - 'jvm,'
@@ -23,6 +24,7 @@
 - 'ms-sql,'
 - 'oop,'
 - optional
+- querydsl
 - secure
 - 'secure,'
 - slf4j

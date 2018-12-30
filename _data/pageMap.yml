@@ -45,7 +45,7 @@ DevOps:
     parent: index
     url: /wiki/DevOps
     updated: '2018-12-03 19:31:45 +0900'
-    children: [Docker, Jvm, Linux, 성능튜닝]
+    children: [Docker, Jvm, Linux, Linux, 성능튜닝]
 Docker:
     type: wiki
     title: Docker
@@ -68,7 +68,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-12-11 21:08:18 +0900'
+    updated: '2018-12-30 18:41:09 +0900'
     children: []
 Interface:
     type: wiki
@@ -101,7 +101,7 @@ JPA:
     parent: Spring
     url: /wiki/JPA
     updated: '2018-09-11 23:54:39 +0900'
-    children: []
+    children: [QueryDsl]
 Jvm:
     type: wiki
     title: 'JVM 성능 튜닝'
@@ -149,6 +149,14 @@ PostContrunct:
     parent: Java
     url: /wiki/PostContrunct
     updated: '2018-09-18 20:13:23 +0900'
+    children: []
+QueryDsl:
+    type: wiki
+    title: QueryDsl
+    summary: 'QueryDsl 설정 방법과 tip 들'
+    parent: JPA
+    url: /wiki/QueryDsl
+    updated: '2018-12-30 19:50:22 +0900'
     children: []
 SecureCoding:
     type: wiki
@@ -225,10 +233,10 @@ XSS:
 개발환경세팅:
     type: wiki
     title: 개발환경세팅
-    summary: 'anyjava wiki index'
+    summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2018-11-01 01:46:51 +0900'
+    updated: '2018-12-30 18:40:49 +0900'
     children: []
 기본적인내용:
     type: wiki
