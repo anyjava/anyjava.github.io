@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2018-12-30 18:41:09 +0900
+updated : 2019-01-02 02:05:17 +0900
 tags    :
 toc     : true
 public  : true
@@ -43,3 +43,7 @@ latex   : false
 * [[SecureCoding]] 
 	* [[CORS (Cross Origin Resource Sharing)]]
 	* [[XSS]]
+
+* 회고
+	* [[2018년회고]] 
+* 
