@@ -1,3 +1,11 @@
+2018년회고:
+    type: wiki
+    title: '2018년 회고'
+    summary: '2018년 회고'
+    parent: index
+    url: /wiki/2018년회고
+    updated: '2019-01-02 02:15:30 +0900'
+    children: []
 Async:
     type: wiki
     title: Async
@@ -68,7 +76,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2018-12-30 18:41:09 +0900'
+    updated: '2019-01-02 02:05:17 +0900'
     children: []
 Interface:
     type: wiki
@@ -236,7 +244,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2018-12-30 18:40:49 +0900'
+    updated: '2019-01-02 06:25:52 +0900'
     children: []
 기본적인내용:
     type: wiki
