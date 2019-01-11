@@ -3,17 +3,22 @@ layout  : wiki
 title   : Jackson
 summary : json, jackson
 date    : 2018-09-13 08:37:20 +0900
-updated : 2018-09-13 08:38:06 +0900
+updated : 2019-01-11 21:41:55 +0900
 tags    : json, jackson
 toc     : true
 public  : true
 parent  : Java
 latex   : false
+adsense : true
 ---
 * TOC
 {:toc}
 
-# Json Filter
+## Entity 의 양방향관계설정시 Json serialize 방법
+
+* [https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion](https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion)
+
+## Json Filter
 
 ```
 import com.fasterxml.jackson.annotation.JsonFilter;
