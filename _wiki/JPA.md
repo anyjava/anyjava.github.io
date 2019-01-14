@@ -3,12 +3,13 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2018-09-11 23:54:39 +0900
+updated : 2019-01-15 08:40:46 +0900
 tags    : jpa
 toc     : true
 public  : true
 parent  : Spring
 latex   : false
+adsense : true
 ---
 * TOC
 {:toc}
@@ -32,3 +33,10 @@ latex   : false
             formula = @JoinFormula(value="CASE Ref_Pay_No WHEN 0 THEN NULL ELSE Ref_Pay_No END"))
     private Payment originPayment;
 ```
+
+### Entity Manager 변경 감지(dirty checking)
+
+* Entity 가 로딩될때, snapshot 을 저장 해둔다.
+* flush 가 될때, 변경된게 없는지 체킹해서 update 를 해준다.
+	* 참고: [The anatomy of Hibernate dirty checking mechanism](https://vladmihalcea.com/the-anatomy-of-hibernate-dirty-checking/)
+	* 좀더 찾아보고 내용추가해야함.
