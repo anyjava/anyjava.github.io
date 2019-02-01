@@ -60,7 +60,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2018-10-02 00:44:29 +0900'
+    updated: '2019-01-22 02:29:17 +0900'
     children: []
 Enum:
     type: wiki
@@ -76,7 +76,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-01-02 02:05:17 +0900'
+    updated: '2019-02-01 20:46:11 +0900'
     children: []
 Interface:
     type: wiki
@@ -92,7 +92,7 @@ Jackson:
     summary: 'json, jackson'
     parent: Java
     url: /wiki/Jackson
-    updated: '2018-09-13 08:38:06 +0900'
+    updated: '2019-01-11 21:41:55 +0900'
     children: []
 Java:
     type: wiki
@@ -108,7 +108,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2018-09-11 23:54:39 +0900'
+    updated: '2019-01-15 08:40:46 +0900'
     children: [QueryDsl]
 Jvm:
     type: wiki
@@ -189,7 +189,15 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
+Spring_Boot:
+    type: wiki
+    title: 'Spring Boot'
+    summary: 'Spring Boot 를 사용하면서 알게 된점'
+    parent: Spring
+    url: /wiki/Spring_Boot
+    updated: '2019-02-01 20:47:54 +0900'
+    children: []
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -244,7 +252,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-01-02 06:25:52 +0900'
+    updated: '2019-02-01 20:44:27 +0900'
     children: []
 기본적인내용:
     type: wiki
