@@ -3,6 +3,7 @@
 - batch
 - bean_scope
 - 'bean,'
+- codereview
 - 'db,'
 - dbms
 - devops
@@ -13,8 +14,8 @@
 - interface
 - jackson
 - java
-- 'Java,'
 - 'java,'
+- 'Java,'
 - jpa
 - 'jpa,'
 - 'json,'

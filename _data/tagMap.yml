@@ -19,6 +19,8 @@ validation:
     - {fileName: Bean_Validation}
 bean_scope:
     - {fileName: BeanScope}
+codereview:
+    - {fileName: CodeReview}
 devops:
     - {fileName: DevOps}
 docker:
