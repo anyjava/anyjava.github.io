@@ -3,7 +3,7 @@ layout  : wiki
 title   : Async
 summary : Spring 에서의 비동기 처리 방법
 date    : 2018-11-19 14:58:51 +0900
-updated : 2019-03-27 08:41:57 +0900
+updated : 2019-03-27 09:19:37 +0900
 tags    : spring, async, task_executor
 toc     : true
 public  : true
@@ -20,7 +20,12 @@ adsense : true
 # Spring 에서 Async 사용을 위한 설정 방법
 
 ## 주의사항!!! ThreadPoolExecutor 를 꼭 설정하고 사용해야 함.
-* 그렇지 않을 경우 Async 용 thread poll 은 하나만 설정됨
+* 그렇지 않을 경우 Async 용 `SimpleAsyncTaskExecutor` 를 사용하도록 default 가 되어 있음.
+
+## Srping Boot 2.1 에서의 ThreadPoolExecutor
+
+* auto-configuration 으로 `ThreadPoolTaskExecutor` 를 생성해준다. [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1-Release-Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1-Release-Notes) 참고
+
 
 ```
 
