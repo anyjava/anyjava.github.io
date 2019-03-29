@@ -3,7 +3,7 @@ layout  : wiki
 title   : Async
 summary : Spring 에서의 비동기 처리 방법
 date    : 2018-11-19 14:58:51 +0900
-updated : 2019-03-27 09:19:37 +0900
+updated : 2019-03-30 00:01:22 +0900
 tags    : spring, async, task_executor
 toc     : true
 public  : true
@@ -40,7 +40,7 @@ adsense : true
     private static final int MAX_POOL_SIZE = Integer.MAX_VALUE;
     private static final int QUEUE_CAPACITY = Integer.MAX_VALUE;
     private static final boolean WAIT_FOR_JOBS_TO_COMPLETE_ON_SHUTDOWN = true;
-    private static final int AWAIT_TERMINATION_SECONDS = 15;
+    private static final int AWAIT_TERMINATION_SECONDS = 60; // 각 서비스에 맞는 적절한 값을 사용하도록 하자.
 		
     @Bean
     @Primary
@@ -55,9 +55,14 @@ adsense : true
         threadPoolTaskExecutor.setKeepAliveSeconds(KEEP_ALIVE_SECONDS);
         threadPoolTaskExecutor.setWaitForTasksToCompleteOnShutdown(WAIT_FOR_JOBS_TO_COMPLETE_ON_SHUTDOWN);
         threadPoolTaskExecutor.setAwaitTerminationSeconds(AWAIT_TERMINATION_SECONDS);
+			  threadPoolTaskExecutor.setBeanName("TaskExecutor Name");
 
         return threadPoolTaskExecutor;
     }
+		
 ```
+
+* ThreadPoolExecutor 를 사용한다면, 꼭 가장먼저 종료될수 있게 설정 해주는 게 좋다.
+	* 참고: [[BeanScope]] 의 `SmartLifecycle` 부분을 참고하도록 하자.
 
 
