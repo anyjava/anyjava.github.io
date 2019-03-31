@@ -3,7 +3,7 @@ layout  : wiki
 title   : BeanScope
 summary : Bean scope 에 대한 설명
 date    : 2018-09-18 20:05:34 +0900
-updated : 2019-03-29 23:57:50 +0900
+updated : 2019-04-01 01:43:41 +0900
 tags    : spring, bean_scope
 toc     : true
 public  : true
@@ -41,9 +41,11 @@ adsense : true
 ```java
 
 @RequiredArgsConstructor
-public class GracefulShutdownHandler implements SmartLifecycle {
+public class GracefulShutdownHandler implements SmartLifecycle, BeanFactoryAware {
 
-		private final ThreadPoolTaskExecutor taskExecutor;
+		private final Map<String, ThreadPoolTaskExecutor> taskExecutors;
+		
+    private DefaultSingletonBeanRegistry beanFactory;
 
     @Override
     public boolean isAutoStartup() {
@@ -71,7 +73,10 @@ public class GracefulShutdownHandler implements SmartLifecycle {
     @Override
     public void stop() {
         log.info("[ThreadPoolTaskExecutor 종료 시작]");
-        this.taskExecutor.destroy();
+				taskExecutors.keySet().forEach(beanName -> {
+            log.info("destroy bean, name={}", beanName);
+            beanFactory.destroySingleton(beanName);
+        });
         log.info("[ThreadPoolTaskExecutor 종료 완료]");
 
         this.isRunning = false;
@@ -91,6 +96,11 @@ public class GracefulShutdownHandler implements SmartLifecycle {
             제일 먼저 stop()
         */
         return Integer.MAX_VALUE;
+    }
+		
+    @Override
+    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+        this.beanFactory = (DefaultSingletonBeanRegistry) beanFactory;
     }
 }
 ```
