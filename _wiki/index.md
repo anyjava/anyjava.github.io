@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2019-02-08 14:57:32 +0900
+updated : 2019-04-24 08:52:39 +0900
 tags    :
 toc     : true
 public  : true
@@ -47,6 +47,9 @@ latex   : false
 * [[CodeReview]]
 	*  
 
+* [[Books]]
+	* [[Refactoring]] 
+	* [[GOF_DesignPattern]]
 * 회고
 	* [[2018년회고]] 
 * 
