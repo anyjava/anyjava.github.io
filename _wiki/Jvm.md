@@ -3,17 +3,31 @@ layout  : wiki
 title   : JVM 성능 튜닝
 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2018-12-03 19:45:33 +0900
+updated : 2019-04-24 08:25:40 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
 parent  : DevOps
 latex   : false
+adsense : true
 ---
 * TOC
 {:toc}
 
 # JVM (Java Virtual Machine) 성능 튜닝
+
+## JVM Heap Area 의 구성
+* new 연산자로 생성된 객체와 배열을 저장하는 공간입니다.
+* GC 로 사용하지 않는 객체들은 메모리로 반환됩니다.
+* Heap Area 종류
+	* Permanent Generation: 생성된 객체들의 정보의 주소값이 저장된 공간
+	* New Area
+		* Eden: 객체들이 최초로 새성되는 공간
+		* Survivor: Eden에서 참조되는 객체들이 저장되는 공간
+		* 실제 통계로도 생성된 98% 객체가 곧바로 쓰레기 객체가 된다고 한다.
+
+	* Old Area
+		* New Area 에서 일정시간이상 참조되고 있는 객체들이 저장되는 공간 
 
 ## GC (Gabage Colector) 의 종류와 특징
 
@@ -25,6 +39,18 @@ latex   : false
 	* 일반적으로 많이 사용함.
 * G1 GC
 	* 4G 이상의 힙 영역이 매우 큰 머신에서 설정
+
+## GC 설정
+* Heap Size = 운영체제 메모리 - 2GB 정도로 하되 최대 31GB까지만 사용한다.
+	* (swappiness=0 or 1이라는 가정하에- 그렇지 않으면 Swap 발생으로 성능저하가 일어날 수 있어보임)
+* 웹 애플리케이션은 운영체제 메모리중 2GB 정도를 남기고 사용한다.  (ElasticSearch 제외. 각 솔루션은 솔루션 가이드를 따른다.)
+	* 단, 31GB 까지만 사용한다. 32GB가 넘어가게 되면 메모리 포인터의 크기가 64bit가 되면서 메모리 점유율이 크게 늘어난다.
+	* 32GB미만은 32bit 포인터 사용. 
+
+```
+GC_OPTIONS="-XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC"
+GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=512K"
+```
 
 
 ## 운영시 JVM 상태 모니터링하는 명령어
@@ -40,3 +66,4 @@ latex   : false
 ## 참고 링크
 
 * [[JAVA] 가비지 컬렉터의 배경과 종류](https://okky.kr/article/379036)
+* [JVM 메모리구조](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwi6lOjDq-fhAhXJS7wKHdCaBQUQFjABegQIBxAC&url=http%3A%2F%2Fjavaslave.tistory.com%2Fattachment%2Fcfile25.uf%402367C345566D35C5303FB9.pdf&usg=AOvVaw2yvS052I9N2riZ9fyqH1-I)
