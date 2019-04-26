@@ -3,7 +3,7 @@ layout  : wiki
 title   : JVM 성능 튜닝
 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-04-24 08:33:46 +0900
+updated : 2019-04-26 09:25:20 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
@@ -68,3 +68,6 @@ GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+Pr
 * [[JAVA] 가비지 컬렉터의 배경과 종류](https://okky.kr/article/379036)
 * [JVM 메모리구조](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwi6lOjDq-fhAhXJS7wKHdCaBQUQFjABegQIBxAC&url=http%3A%2F%2Fjavaslave.tistory.com%2Fattachment%2Fcfile25.uf%402367C345566D35C5303FB9.pdf&usg=AOvVaw2yvS052I9N2riZ9fyqH1-I)
 * [권남이 wiki - Java Memory Analysis](http://kwonnam.pe.kr/wiki/java/memory)
+* [하나의 메모리 누수를 잡기까지 - Naver D2 Hello Wordl](https://d2.naver.com/helloworld/1326256)
+* [스레드 덤프 분석학 - Naver D2](https://d2.naver.com/helloworld/10963)
+* [Head dump 분석용 툴 - eclipse MAT](http://www.eclipse.org/mat/) 
