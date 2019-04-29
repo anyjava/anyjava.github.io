@@ -2,7 +2,7 @@
 layout  : wiki
 title   : JVM 성능 튜닝 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-04-29 12:11:29 +0900
+updated : 2019-04-30 01:37:36 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
@@ -61,7 +61,7 @@ GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+Pr
 	* `sudo -u tomcat jmap -histo <pid>`
 	* `jmap -heap <pid>`
 	* `jmap -dump:live,format=b,file=dump.bin <pid>` : live 되고 있는 객체만 dump 뜬다. file 위치는 홈디렉토리이다.
-
+* Thread 별 CPU 도 확인 할수 있음: `htop` 혹은 `/proc/{pid}/task/000/stat` 정보로 확인 가능 
 
 ## 참고 링크
 
