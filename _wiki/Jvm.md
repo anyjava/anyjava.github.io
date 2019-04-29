@@ -3,7 +3,7 @@ layout  : wiki
 title   : JVM 성능 튜닝
 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-04-26 09:25:20 +0900
+updated : 2019-04-29 11:44:11 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
@@ -71,3 +71,5 @@ GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+Pr
 * [하나의 메모리 누수를 잡기까지 - Naver D2 Hello Wordl](https://d2.naver.com/helloworld/1326256)
 * [스레드 덤프 분석학 - Naver D2](https://d2.naver.com/helloworld/10963)
 * [Head dump 분석용 툴 - eclipse MAT](http://www.eclipse.org/mat/) 
+* [[자바 객체의 크기] Shallow size와 Retained size](https://www.tuning-java.com/391)
+ 
