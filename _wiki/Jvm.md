@@ -1,8 +1,9 @@
 ---
 layout  : wiki
-title   : JVM 성능 튜닝 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
+title   : JVM 성능 튜닝 
+summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-04-30 01:37:36 +0900
+updated : 2019-05-03 01:34:05 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
