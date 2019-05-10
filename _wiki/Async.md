@@ -3,7 +3,7 @@ layout  : wiki
 title   : Async
 summary : Spring 에서의 비동기 처리 방법
 date    : 2018-11-19 14:58:51 +0900
-updated : 2019-03-30 00:01:22 +0900
+updated : 2019-05-10 09:14:36 +0900
 tags    : spring, async, task_executor
 toc     : true
 public  : true
@@ -65,4 +65,7 @@ adsense : true
 * ThreadPoolExecutor 를 사용한다면, 꼭 가장먼저 종료될수 있게 설정 해주는 게 좋다.
 	* 참고: [[BeanScope]] 의 `SmartLifecycle` 부분을 참고하도록 하자.
 
+### ForkJoinPool 
 
+* [[Java] 쓰레드풀 과 ForkJoinPool](https://okky.kr/article/345720)
+ 
