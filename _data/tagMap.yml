@@ -19,8 +19,13 @@ validation:
     - {fileName: Bean_Validation}
 bean_scope:
     - {fileName: BeanScope}
+book:
+    - {fileName: Books}
+    - {fileName: Refactoring}
 codereview:
     - {fileName: CodeReview}
+datastructure:
+    - {fileName: DataStructure}
 devops:
     - {fileName: DevOps}
 docker:
@@ -31,6 +36,12 @@ java:
     - {fileName: Enum}
     - {fileName: Java}
     - {fileName: Spring_Boot}
+'book,':
+    - {fileName: GOF_DesignPattern}
+designpattern:
+    - {fileName: GOF_DesignPattern}
+http:
+    - {fileName: Http}
 'java,':
     - {fileName: Interface}
     - {fileName: PostContrunct}
