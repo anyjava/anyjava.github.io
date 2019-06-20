@@ -3,7 +3,7 @@ layout  : wiki
 title   : Linux 
 summary : linux 활용에 관한 모든것
 date    : 2018-08-21 18:28:36 +0900
-updated : 2019-05-20 02:04:33 +0900
+updated : 2019-06-20 17:37:21 +0900
 tags    : linux
 toc     : true
 public  : true
@@ -43,6 +43,7 @@ net.ipv4.ip_local_port_range = 10240 65535 # local port 범위 조정
 
 ```
 grep -rn "찾고자 하는 문자열" *
+grep -A라인수 -B 라인수 # A: 뒤 몇라인, B: 앞 몇라인
 ```
 
 * while 문으로 주기적인 실행
