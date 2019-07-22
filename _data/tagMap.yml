@@ -4,6 +4,7 @@
     - {fileName: Async}
     - {fileName: Bean_Validation}
     - {fileName: BeanScope}
+    - {fileName: Spring_Boot}
     - {fileName: Spring-Batch}
     - {fileName: WebFlux}
     - {fileName: 기본적인내용}
@@ -18,6 +19,13 @@ validation:
     - {fileName: Bean_Validation}
 bean_scope:
     - {fileName: BeanScope}
+book:
+    - {fileName: Books}
+    - {fileName: Refactoring}
+codereview:
+    - {fileName: CodeReview}
+datastructure:
+    - {fileName: DataStructure}
 devops:
     - {fileName: DevOps}
 docker:
@@ -27,6 +35,13 @@ docker:
 java:
     - {fileName: Enum}
     - {fileName: Java}
+    - {fileName: Spring_Boot}
+'book,':
+    - {fileName: GOF_DesignPattern}
+designpattern:
+    - {fileName: GOF_DesignPattern}
+http:
+    - {fileName: Http}
 'java,':
     - {fileName: Interface}
     - {fileName: PostContrunct}
@@ -82,6 +97,8 @@ tdd:
     - {fileName: spock}
 spring:
     - {fileName: Spring}
+'springboot,':
+    - {fileName: Spring_Boot}
 'spring,springboot,actuactor':
     - {fileName: Spring_Boot_Actuator}
 batch:

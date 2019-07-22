@@ -12,7 +12,7 @@ Async:
     summary: 'Spring 에서의 비동기 처리 방법'
     parent: Spring
     url: /wiki/Async
-    updated: '2018-11-23 19:54:43 +0900'
+    updated: '2019-05-10 09:14:36 +0900'
     children: []
 Bean_Validation:
     type: wiki
@@ -28,7 +28,23 @@ BeanScope:
     summary: 'Bean scope 에 대한 설명'
     parent: Spring
     url: /wiki/BeanScope
-    updated: '2018-09-18 20:11:14 +0900'
+    updated: '2019-04-01 01:43:41 +0900'
+    children: []
+Books:
+    type: wiki
+    title: Books
+    summary: '내가 생각하는 개발자 필독서를 정리하고 요약함'
+    parent: index
+    url: /wiki/Books
+    updated: '2019-04-24 08:50:30 +0900'
+    children: [GOF_DesignPattern, Refactoring]
+CodeReview:
+    type: wiki
+    title: CodeReivew
+    summary: '코드리뷰를 통해 배운것들'
+    parent: index
+    url: /wiki/CodeReview
+    updated: '2019-02-08 14:57:21 +0900'
     children: []
 'CORS (Cross Origin Resource Sharing)':
     type: wiki
@@ -37,6 +53,14 @@ BeanScope:
     parent: SecureCoging
     url: '/wiki/CORS (Cross Origin Resource Sharing)'
     updated: '2018-10-29 12:54:23 +0900'
+    children: []
+DataStructure:
+    type: wiki
+    title: DataStructure
+    summary: '자료 구조'
+    parent: index
+    url: /wiki/DataStructure
+    updated: '2019-04-28 16:22:50 +0900'
     children: []
 DBMS:
     type: wiki
@@ -60,7 +84,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2018-10-02 00:44:29 +0900'
+    updated: '2019-01-22 02:29:17 +0900'
     children: []
 Enum:
     type: wiki
@@ -70,13 +94,29 @@ Enum:
     url: /wiki/Enum
     updated: '2018-09-18 01:50:39 +0900'
     children: []
+GOF_DesignPattern:
+    type: wiki
+    title: 'GoF DesignPattern'
+    summary: 'GoF 디자인 패턴'
+    parent: Books
+    url: /wiki/GOF_DesignPattern
+    updated: '2019-04-24 08:53:22 +0900'
+    children: []
+Http:
+    type: wiki
+    title: Http
+    summary: 'Http 에 대한 정보를 정리'
+    parent: Web
+    url: /wiki/Http
+    updated: '2019-05-20 02:13:27 +0900'
+    children: []
 index:
     type: wiki
     title: index
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-01-02 02:05:17 +0900'
+    updated: '2019-05-20 01:49:12 +0900'
     children: []
 Interface:
     type: wiki
@@ -92,7 +132,7 @@ Jackson:
     summary: 'json, jackson'
     parent: Java
     url: /wiki/Jackson
-    updated: '2018-09-13 08:38:06 +0900'
+    updated: '2019-01-11 21:41:55 +0900'
     children: []
 Java:
     type: wiki
@@ -108,7 +148,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2018-09-11 23:54:39 +0900'
+    updated: '2019-01-15 08:40:46 +0900'
     children: [QueryDsl]
 Jvm:
     type: wiki
@@ -116,7 +156,7 @@ Jvm:
     summary: 'JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리'
     parent: DevOps
     url: /wiki/Jvm
-    updated: '2018-12-03 19:45:33 +0900'
+    updated: '2019-05-03 01:34:05 +0900'
     children: []
 Linux:
     type: wiki
@@ -166,6 +206,14 @@ QueryDsl:
     url: /wiki/QueryDsl
     updated: '2018-12-30 19:50:22 +0900'
     children: []
+Refactoring:
+    type: wiki
+    title: Refactoring
+    summary: '리랙토링 - 마틴 파울러'
+    parent: Books
+    url: /wiki/Refactoring
+    updated: '2019-04-24 08:51:40 +0900'
+    children: []
 SecureCoding:
     type: wiki
     title: 'Secure Coding'
@@ -189,7 +237,15 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
+Spring_Boot:
+    type: wiki
+    title: 'Spring Boot'
+    summary: 'Spring Boot 를 사용하면서 알게 된점'
+    parent: Spring
+    url: /wiki/Spring_Boot
+    updated: '2019-02-01 20:47:54 +0900'
+    children: []
 Spring_Boot_Actuator:
     type: wiki
     title: 'Spring Boot Actuator'
@@ -221,7 +277,7 @@ Web:
     parent: index
     url: /wiki/Web
     updated: '2018-09-04 08:43:37 +0900'
-    children: []
+    children: [Http]
 WebFlux:
     type: wiki
     title: WebFlux
@@ -244,7 +300,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-01-02 06:25:52 +0900'
+    updated: '2019-05-15 10:09:41 +0900'
     children: []
 기본적인내용:
     type: wiki
@@ -260,5 +316,5 @@ XSS:
     summary: 'Java Application (Spring) 성능 튜닝에 대해서'
     parent: DevOps
     url: /wiki/성능튜닝
-    updated: '2018-10-02 22:40:03 +0900'
+    updated: '2019-05-15 10:46:11 +0900'
     children: []

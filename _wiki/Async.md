@@ -3,12 +3,13 @@ layout  : wiki
 title   : Async
 summary : Spring 에서의 비동기 처리 방법
 date    : 2018-11-19 14:58:51 +0900
-updated : 2018-11-23 19:54:43 +0900
+updated : 2019-05-10 09:14:36 +0900
 tags    : spring, async, task_executor
 toc     : true
 public  : true
 parent  : Spring
 latex   : false
+adsense : true
 ---
 * TOC
 {:toc}
@@ -19,9 +20,28 @@ latex   : false
 # Spring 에서 Async 사용을 위한 설정 방법
 
 ## 주의사항!!! ThreadPoolExecutor 를 꼭 설정하고 사용해야 함.
-* 그렇지 않을 경우 Async 용 thread poll 은 하나만 설정됨
+* 그렇지 않을 경우 Async 용 `SimpleAsyncTaskExecutor` 를 사용하도록 default 가 되어 있음.
+
+## Srping Boot 2.1 에서의 ThreadPoolExecutor
+
+* auto-configuration 으로 `ThreadPoolTaskExecutor` 를 생성해준다. [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1-Release-Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1-Release-Notes) 참고
+
 
 ```
+
+    /**
+     * 1. CORE_POOL_SIZE 를 먼저 소비 한다.
+     * 2. CORE_POOL_SIZE 를 모두 점유 했다면, QUEUE_CAPACITY 값만큼 대기한다.
+     * 3. QUEUE_CAPACITY 도 다 찬다면, MAX_POOL_SIZE 만큼 THREAD 를 생성해서 처리한다.
+     * 주의!! 3가지의 설정을 적절히 해주어야 한다.
+     */
+    private static final int CORE_POOL_SIZE = 100;
+    private static final int KEEP_ALIVE_SECONDS = 60;
+    private static final int MAX_POOL_SIZE = Integer.MAX_VALUE;
+    private static final int QUEUE_CAPACITY = Integer.MAX_VALUE;
+    private static final boolean WAIT_FOR_JOBS_TO_COMPLETE_ON_SHUTDOWN = true;
+    private static final int AWAIT_TERMINATION_SECONDS = 60; // 각 서비스에 맞는 적절한 값을 사용하도록 하자.
+		
     @Bean
     @Primary
     public ThreadPoolTaskExecutor adCenterTaskExecutor() {
@@ -35,9 +55,17 @@ latex   : false
         threadPoolTaskExecutor.setKeepAliveSeconds(KEEP_ALIVE_SECONDS);
         threadPoolTaskExecutor.setWaitForTasksToCompleteOnShutdown(WAIT_FOR_JOBS_TO_COMPLETE_ON_SHUTDOWN);
         threadPoolTaskExecutor.setAwaitTerminationSeconds(AWAIT_TERMINATION_SECONDS);
+			  threadPoolTaskExecutor.setBeanName("TaskExecutor Name");
 
         return threadPoolTaskExecutor;
     }
+		
 ```
 
+* ThreadPoolExecutor 를 사용한다면, 꼭 가장먼저 종료될수 있게 설정 해주는 게 좋다.
+	* 참고: [[BeanScope]] 의 `SmartLifecycle` 부분을 참고하도록 하자.
 
+### ForkJoinPool 
+
+* [[Java] 쓰레드풀 과 ForkJoinPool](https://okky.kr/article/345720)
+ 
