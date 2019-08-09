@@ -3,7 +3,7 @@ layout  : wiki
 title   : Docker
 summary : Docker 에 대한 모든것 
 date    : 2018-09-06 02:01:37 +0900
-updated : 2019-01-22 02:29:17 +0900
+updated : 2019-08-09 16:39:33 +0900
 tags    : docker
 toc     : true
 public  : true
@@ -33,6 +33,22 @@ adsense : true
 
 * `FROM:openjdk:8-alpine` : [Alpine Linux](https://alpinelinux.org/) 기반
 	* Docker 용 리눅스로 곽광받고 있다. 특징 아주 작은 용량
+
+## Docker For IntegrationTest
+
+* MySQL
+  * H2 DB 보다 실제 MySQL 을 띄워서 local test 를 하는 방향을 추천 한다.
+
+```
+docker run --name mysql57 \
+    -p 3306:3306 \
+    -e MYSQL_ROOT_PASSWORD=root \
+    -e MYSQL_ROOT_HOST='%' \
+    --restart=unless-stopped \
+    -d \
+    mysql/mysql-server:5.7 \
+    --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+```
 
 ## 참고
 * [개발자가 처음 Docker 접할때 오는 멘붕 몇가지](https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/)
