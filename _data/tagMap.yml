@@ -40,6 +40,8 @@ java:
     - {fileName: GOF_DesignPattern}
 designpattern:
     - {fileName: GOF_DesignPattern}
+gradle:
+    - {fileName: Gradle}
 http:
     - {fileName: Http}
 'java,':
@@ -65,7 +67,6 @@ jpa:
 thread:
     - {fileName: Jvm}
 linux:
-    - {fileName: Linux}
     - {fileName: Linux}
 slf4j:
     - {fileName: Logging}

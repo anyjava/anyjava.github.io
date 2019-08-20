@@ -15,6 +15,7 @@
 - docker
 - 'enum,'
 - 'gc,'
+- gradle
 - http
 - interface
 - jackson

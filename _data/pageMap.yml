@@ -77,14 +77,14 @@ DevOps:
     parent: index
     url: /wiki/DevOps
     updated: '2018-12-03 19:31:45 +0900'
-    children: [Docker, Jvm, Linux, Linux, 성능튜닝]
+    children: [Docker, Jvm, Linux, 성능튜닝]
 Docker:
     type: wiki
     title: Docker
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2019-01-22 02:29:17 +0900'
+    updated: '2019-08-09 16:39:33 +0900'
     children: []
 Enum:
     type: wiki
@@ -102,6 +102,14 @@ GOF_DesignPattern:
     url: /wiki/GOF_DesignPattern
     updated: '2019-04-24 08:53:22 +0900'
     children: []
+Gradle:
+    type: wiki
+    title: Gradle
+    summary: 'Gradle 에 필요한 것들을 정리'
+    parent: index
+    url: /wiki/Gradle
+    updated: '2019-08-20 09:54:58 +0900'
+    children: []
 Http:
     type: wiki
     title: Http
@@ -116,7 +124,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-05-20 01:49:12 +0900'
+    updated: '2019-08-20 09:46:27 +0900'
     children: []
 Interface:
     type: wiki
@@ -164,7 +172,7 @@ Linux:
     summary: 'linux 활용에 관한 모든것'
     parent: DevOps
     url: /wiki/Linux
-    updated: '2018-09-11 09:37:38 +0900'
+    updated: '2019-06-20 17:37:21 +0900'
     children: []
 Logging:
     type: wiki
@@ -300,7 +308,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-05-15 10:09:41 +0900'
+    updated: '2019-08-12 15:58:19 +0900'
     children: []
 기본적인내용:
     type: wiki
@@ -316,5 +324,5 @@ XSS:
     summary: 'Java Application (Spring) 성능 튜닝에 대해서'
     parent: DevOps
     url: /wiki/성능튜닝
-    updated: '2019-05-15 10:46:11 +0900'
+    updated: '2019-07-23 01:47:35 +0900'
     children: []
