@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2019-01-15 08:40:46 +0900
+updated : 2019-08-22 13:05:26 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -40,3 +40,49 @@ adsense : true
 * flush 가 될때, 변경된게 없는지 체킹해서 update 를 해준다.
 	* 참고: [The anatomy of Hibernate dirty checking mechanism](https://vladmihalcea.com/the-anatomy-of-hibernate-dirty-checking/)
 	* 좀더 찾아보고 내용추가해야함.
+
+## Hibernate Envers
+
+* envers 를 사용하다 보면, `revinfo` 테이블의 rev 컬럼의 데이터 타입이 integer 로 생성이 된다. 이는 대용량 데이터를 다룰 시 금방 넘쳐버리는 이슈가 있어서 Long type 으로 변경해야함.
+* 아래와 같이 Entity 를 추가하면 가능함.
+
+```
+/**
+ * hibernate envers에서 사용하는 revision 정보를 저장하는 entity
+ * default revision entity는 revision number가 {@link java.lang.Integer} 라서, 더 큰 사이즈의 revision number가 필요한 경우에 사용한다.
+ */
+@Getter
+@Setter
+@NoArgsConstructor
+@Entity
+@RevisionEntity
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Table(name = "REVINFO")
+public class LongRevisionEntity implements Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @RevisionNumber
+    @EqualsAndHashCode.Include
+    @Column(name = "REV")
+    private Long id;
+
+    @RevisionTimestamp
+    @EqualsAndHashCode.Include
+    @Column(name = "REVTSTMP")
+    private Long timestamp;
+
+
+    @Transient
+    public Date getRevisionDate() {
+        return new Date(timestamp);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("LongRevisionEntity(id = %d, revisionDate = %s)",
+            id, DateFormat.getDateTimeInstance().format(getRevisionDate()));
+    }
+
+}
+```
