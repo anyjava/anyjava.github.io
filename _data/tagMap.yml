@@ -66,6 +66,8 @@ jpa:
     - {fileName: Jvm}
 thread:
     - {fileName: Jvm}
+'json,jwt':
+    - {fileName: JWT}
 linux:
     - {fileName: Linux}
 slf4j:

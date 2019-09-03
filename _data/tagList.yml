@@ -25,6 +25,7 @@
 - jpa
 - 'jpa,'
 - 'json,'
+- 'json,jwt'
 - junit
 - 'jvm,'
 - linux

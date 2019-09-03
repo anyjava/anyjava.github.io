@@ -124,7 +124,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-08-20 09:46:27 +0900'
+    updated: '2019-09-03 09:13:15 +0900'
     children: []
 Interface:
     type: wiki
@@ -156,7 +156,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2019-01-15 08:40:46 +0900'
+    updated: '2019-08-22 13:05:26 +0900'
     children: [QueryDsl]
 Jvm:
     type: wiki
@@ -165,6 +165,14 @@ Jvm:
     parent: DevOps
     url: /wiki/Jvm
     updated: '2019-05-03 01:34:05 +0900'
+    children: []
+JWT:
+    type: wiki
+    title: 'JWT (JSON Web Token)'
+    summary: jwt
+    parent: Web
+    url: /wiki/JWT
+    updated: '2019-09-03 09:14:08 +0900'
     children: []
 Linux:
     type: wiki
@@ -285,7 +293,7 @@ Web:
     parent: index
     url: /wiki/Web
     updated: '2018-09-04 08:43:37 +0900'
-    children: [Http]
+    children: [Http, JWT]
 WebFlux:
     type: wiki
     title: WebFlux
@@ -308,7 +316,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-08-12 15:58:19 +0900'
+    updated: '2019-08-22 14:41:20 +0900'
     children: []
 기본적인내용:
     type: wiki
