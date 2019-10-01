@@ -54,6 +54,7 @@ interface:
     - {fileName: Interface}
 'json,':
     - {fileName: Jackson}
+    - {fileName: JWT}
 jackson:
     - {fileName: Jackson}
 jpa:
@@ -66,8 +67,16 @@ jpa:
     - {fileName: Jvm}
 thread:
     - {fileName: Jvm}
-'json,jwt':
+jwt:
     - {fileName: JWT}
+kotlin:
+    - {fileName: Kotlin}
+'kotlin,kia,kotlin':
+    - {fileName: Kotlin_In_Action}
+in:
+    - {fileName: Kotlin_In_Action}
+action:
+    - {fileName: Kotlin_In_Action}
 linux:
     - {fileName: Linux}
 slf4j:
