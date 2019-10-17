@@ -3,15 +3,14 @@ layout  : wiki
 title   : JVM 성능 튜닝 
 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-05-03 01:34:05 +0900
+updated : 2019-10-17 09:20:06 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
 parent  : DevOps
 latex   : false
 adsense : true
----
-* TOC
+--- * TOC
 {:toc}
 
 # JVM (Java Virtual Machine) 성능 튜닝
@@ -39,6 +38,7 @@ adsense : true
 	* 일반적으로 많이 사용함.
 * G1 GC
 	* 4G 이상의 힙 영역이 매우 큰 머신에서 설정
+* ZGC
 
 ## GC 설정
 * Heap Size = 운영체제 메모리 - 2GB 정도로 하되 최대 31GB까지만 사용한다.
@@ -64,6 +64,23 @@ GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+Pr
 	* `jmap -dump:live,format=b,file=dump.bin <pid>` : live 되고 있는 객체만 dump 뜬다. file 위치는 홈디렉토리이다.
 * Thread 별 CPU 도 확인 할수 있음: `htop` 혹은 `/proc/{pid}/task/000/stat` 정보로 확인 가능 
 
+## GC Friendly 하게 작성하기
+
+* new 를 남발해도 GC 오버헤드는 거의 없다. 중요한건 new 한 객체의 라이프사이클을 짧게 유지해야 한다. 
+  * 특히 지역변수가 참조하는 객체들
+* LinkedList 는 사용하지 않는게 GC 입장에서는 좋다.
+* 중간데이터를 저장할 때 HashMap 등의 자료구조를 이용해서 데이터가 커지지 안헥 하는 습관이 좋다.
+* 안쓰는 객체는 빨리 참조를 없애라.
+* null out when it is done. if the data-structure is big.
+
+## JIT Compiler Friendly 
+
+* branch condition as constant
+* Do not afraid of making smaller functions
+  * 가독성이 더 중요하다. JIT Compiler 의 inlining 을 통한 최적화를 믿어라
+* do not abuse native class
+  * inlining is impossible
+
 ## 참고 링크
 
 * [[JAVA] 가비지 컬렉터의 배경과 종류](https://okky.kr/article/379036)
@@ -73,4 +90,6 @@ GC_LOG_OPTIONS="-Xloggc:/var/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+Pr
 * [스레드 덤프 분석학 - Naver D2](https://d2.naver.com/helloworld/10963)
 * [Head dump 분석용 툴 - eclipse MAT](http://www.eclipse.org/mat/) 
 * [[자바 객체의 크기] Shallow size와 Retained size](https://www.tuning-java.com/391)
+* [Java GG 튜닝 - 기계인간](https://johngrib.github.io/wiki/java-gc-tuning/)
+* [JVM 메모리 구조와 GC](https://johngrib.github.io/wiki/jvm-memory/)
  
