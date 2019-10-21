@@ -164,7 +164,7 @@ Jvm:
     summary: 'JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리'
     parent: DevOps
     url: /wiki/Jvm
-    updated: '2019-05-03 01:34:05 +0900'
+    updated: '2019-10-17 09:20:06 +0900'
     children: []
 JWT:
     type: wiki
@@ -188,7 +188,7 @@ Kotlin_In_Action:
     summary: 'kia study 요약'
     parent: Kotlin
     url: /wiki/Kotlin_In_Action
-    updated: '2019-10-01 09:14:59 +0900'
+    updated: '2019-10-07 03:00:51 +0900'
     children: []
 Linux:
     type: wiki
@@ -213,6 +213,14 @@ MS-SQL:
     parent: DBMS
     url: /wiki/MS-SQL
     updated: '2018-12-06 19:01:50 +0900'
+    children: []
+MSA:
+    type: wiki
+    title: MSA
+    summary: 'Microservice Architecture'
+    parent: index
+    url: /wiki/MSA
+    updated: '2019-10-21 15:35:41 +0900'
     children: []
 Optional:
     type: wiki

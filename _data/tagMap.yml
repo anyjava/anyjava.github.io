@@ -87,6 +87,10 @@ slf4j:
     - {fileName: MS-SQL}
 dbms:
     - {fileName: MS-SQL}
+'msa,':
+    - {fileName: MSA}
+architecture:
+    - {fileName: MSA}
 'Java,':
     - {fileName: Optional}
 optional:

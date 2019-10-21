@@ -1,5 +1,6 @@
 - action
 - annoatation
+- architecture
 - 'async,'
 - batch
 - bean_scope
@@ -34,6 +35,7 @@
 - 'kotlin,kia,kotlin'
 - linux
 - 'ms-sql,'
+- 'msa,'
 - 'oop,'
 - optional
 - querydsl
