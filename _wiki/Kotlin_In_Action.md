@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-10-07 03:00:51 +0900
+updated : 2019-10-22 09:01:52 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -133,3 +133,71 @@ val (x, y) = p
 
 
 ### 위임 프로퍼티 
+
+
+## 8장 고차 함수: 파라미터와 반환 값으로 람다 사용
+
+### 고차함수 (lambda)
+* 고차함수: 다른 함수를 인자로 받꺼나 함수를 반환하는 함수다
+* function type 
+  * example
+
+```kotlin
+val sum = { x: Int, y: Int -> x + y }
+val action = { println(42) }
+```
+
+* null 이 될 수 있는 함수타입도 정의 가능하다.
+  * null 이 반환될 수 있는 타입: `var canReturn Null: (Int, Int) -> Int? = {x, y -> null }`
+  * null 이 될 수 있는 타입: `var funOrNull: ((Int, Int) -> Int)? = null`
+
+* Java 에서 코틀린 함수 타입 사용
+  * 컴파일된 코드안에서 함수 타입은 일반 인터페이스로 바뀐다. FuntionN 형태
+  * Funtion0<R>, Funtion1<R1, R> 등 invoke method 에 함수의 본문이 들어감
+
+* 함수 파라미터의 디폴트 함수도 설정 가능
+
+
+### inline 함수: 람다의 부가 비용 없애기
+
+* keyword: `inline`, `noinline`
+* inline: 컴파일 시점에 함수를 풀어서 코드내에 녹여지는 것.
+* 코틀린이 보통 람다를 무명 크래스로 컴파일하지만 그렇다고 람다 식을 사용할 때마다 새로운 클래스가 만들어지지는 않는다.
+* 람다가 변수를 포획하면 람다가 생성되는 시점마다 새로운 무명 클래스 객체가 생긴다. (주의)
+
+* inline 할 수 있는 경우: 
+  * 인라인 함수의 본문에서 람다 식을 바로 호출 하는 경우
+  * 람다 식을 인자로 전달받아 바로 호출하는 경우
+
+
+* Kotlin Collection 표준함수인 filter 는 기본적으로 inline 함수 이다. 하지만 asSequence 를 통한 filter 는 람다를 저장해야하기 때문에 inline 함수가 아니다.
+  * 따라서,  크기가 작은 컬렉션의 경우 asSequence 를 사용함면 성능이 더 느릴 수 가 있다.
+
+
+### 함수를 인라인으로 선언해야 하는 경우
+* JVM 은 `JIT Compiler` 가 이미 강력한 인라이닝을 지원하고 있음.
+
+* inline 선언시 이점
+  * 1. 함수 호출 비용을 줄일 수 있을 뿐 아니라 람다를 표현하는 클래스와 람다 인스턴스에 해당하는 객체를 만들 필요도 없어진다.
+  * 2. JVM은 함수 호출과 람다를 인라이닝해 줄 정도로 똑똑하지 못하다.
+  * 3. 사용할 수 없는 몇가지 기능을 사용할 수 있다. (ex. non-local 반환)
+
+* `non-local return`
+  * 람다로부터만 반환되는 게 아니라 그 람다를 호출하는 함수가 실행을 끝내고 반환된다.
+  * inline 함수인 경우에만 가능
+  * 무명함수는 기본적으로 `local return`
+  * 레이블을 이용하여 return 하고자하는 function 을 지정할 수 있음,
+  * 간단하게는 `return` 은 가장 가까은 `fun` 구문을 빠져다온다고 보면 된다.
+
+```
+fun lookForAlice(people: List<Person>) {
+	people.forEach {
+    if (it.name == "Alice") {
+      println("Found!")
+      reutrn // non-local return
+    }
+  }
+}
+```
+ 
+## 9장. 제네릭스  
