@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-10-22 09:01:52 +0900
+updated : 2019-10-23 09:01:12 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -201,3 +201,50 @@ fun lookForAlice(people: List<Person>) {
 ```
  
 ## 9장. 제네릭스  
+
+### 제네릭 타입 파라미터
+
+* Kotlin 은 처음부터 제네릭을 도입했기 때문에 raw type 을 지원하지 않는다. 제네릭 타입의 타입 인자를 항상 정의 해야 한다.
+  * start projection `*` 을 사용하면 할수는 있다.
+
+```kotlin
+fun <T> List<T>.slice(indices: IntRange): List<T>
+    ___ 파라미터 선언부
+            ___ 타입 파라미터가 수신 객체와 반환 타입에 쓰인다.
+``` 
+
+* Type Parameter constraint (타입 파라미터 제약)
+  * Upper bound (상한): 제네릭 타입을 인스턴스화할 때 사용하는 타입 인자는 반드시 그 상한 타입이거나 그 상한 타입의 하위 타입이어야 한다.
+
+```kotlin
+fun <T : Number> List<T>.sum() : T
+
+fun <T: Comparable<T>> max(first: T, second: T): T {
+  return if (first > second) first else second
+}
+```
+
+  * 드물지만 둘 이상의 제약을 사용할 수 도 있음 -> `where T : CharSequence, T : Appendable``
+
+* Null 가능성을 제외한 아무런 제약도 필요 없다면 Any? 대신 Any 를 상한으로 사용하라. Default Upper Bound is Any?
+
+
+### 실행시 제네릭스의 동작: 소거된 타입 파라미터와 살체화된 타입 파라미터
+
+* reify (실체화): 함수를 inline 으로 만들면 타입 인자가 지워지지 않게 할 수 있다.
+* 타입소거가 가능한게, 타입인자를 알고 올바른 타입의 값만 각 리스트에 넣도록 컴파일 타임에서 보장해 준다.
+
+```kotlin
+>>> fun <T> isA(value: Any) = value is T
+Error: Cannot check for instance of erased type : T
+```
+
+* 실체화한 타입파라미터를 사용한다면,
+
+```kotlin
+inline fun < reified T> isA(value: Any) = value is T // 컴파일 가능
+```
+* 따라서 자바에서는 사용이 불가능 하다.
+
+
+### Variance (변성)
