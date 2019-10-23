@@ -59,6 +59,8 @@ jackson:
     - {fileName: Jackson}
 jpa:
     - {fileName: JPA}
+'test,junit':
+    - {fileName: JUnit5}
 'devops,':
     - {fileName: Jvm}
 'jvm,':

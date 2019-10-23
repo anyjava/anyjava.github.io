@@ -23,8 +23,8 @@
 - interface
 - jackson
 - java
-- 'Java,'
 - 'java,'
+- 'Java,'
 - jpa
 - 'jpa,'
 - 'json,'
@@ -51,6 +51,7 @@
 - tdd
 - 'tdd,'
 - 'test,'
+- 'test,junit'
 - thread
 - tip
 - tools

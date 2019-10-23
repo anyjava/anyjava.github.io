@@ -149,7 +149,7 @@ Java:
     parent: index
     url: /wiki/Java
     updated: '2019-09-19 01:59:21 +0900'
-    children: [Enum, Interface, Jackson, Optional, PostContrunct]
+    children: [Enum, Interface, Jackson, JUnit5, Optional, PostContrunct]
 JPA:
     type: wiki
     title: JPA
@@ -158,6 +158,14 @@ JPA:
     url: /wiki/JPA
     updated: '2019-08-22 13:05:26 +0900'
     children: [QueryDsl]
+JUnit5:
+    type: wiki
+    title: JUnit5
+    summary: JUnit5
+    parent: Java
+    url: /wiki/JUnit5
+    updated: '2019-10-23 09:10:43 +0900'
+    children: []
 Jvm:
     type: wiki
     title: 'JVM 성능 튜닝'
@@ -188,7 +196,7 @@ Kotlin_In_Action:
     summary: 'kia study 요약'
     parent: Kotlin
     url: /wiki/Kotlin_In_Action
-    updated: '2019-10-07 03:00:51 +0900'
+    updated: '2019-10-23 09:01:12 +0900'
     children: []
 Linux:
     type: wiki
@@ -340,7 +348,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-08-22 14:41:20 +0900'
+    updated: '2019-10-22 00:52:10 +0900'
     children: []
 기본적인내용:
     type: wiki
