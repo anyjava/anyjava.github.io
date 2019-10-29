@@ -3,7 +3,7 @@ layout  : wiki
 title   : MSA
 summary : Microservice Architecture
 date    : 2019-10-21 15:30:38 +0900
-updated : 2019-10-21 15:35:41 +0900
+updated : 2019-10-29 18:40:41 +0900
 tags    : msa, architecture
 toc     : true
 public  : true
@@ -15,6 +15,13 @@ adsense : true
 {:toc}
 
 # Microservice Architecture
+
+## Armeria Framework
+
+* 여러가지 remote 프로토콜을 지원하는 Framwork 이다. 비동기, Reactive 함.
+* [Git Repo](https://github.com/line/armeria)
+* [DEVIEW 2019 발표자료](https://deview.kr/data/deview/2019/presentation/[236]2019.10.%20Armeria%20-%20A%20Microservice%20Framework%20Well-suited%20Everywhere.pdf)
+
 
 
 ## 참고링크
