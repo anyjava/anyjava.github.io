@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-10-23 09:01:12 +0900
+updated : 2019-11-12 09:17:52 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -202,6 +202,10 @@ fun lookForAlice(people: List<Person>) {
  
 ## 9장. 제네릭스  
 
+* 제네릭 타입 파라미터
+* 타입 파라미터의 한정
+* 클래스 인터페이스의 변성
+
 ### 제네릭 타입 파라미터
 
 * Kotlin 은 처음부터 제네릭을 도입했기 때문에 raw type 을 지원하지 않는다. 제네릭 타입의 타입 인자를 항상 정의 해야 한다.
@@ -229,7 +233,7 @@ fun <T: Comparable<T>> max(first: T, second: T): T {
 * Null 가능성을 제외한 아무런 제약도 필요 없다면 Any? 대신 Any 를 상한으로 사용하라. Default Upper Bound is Any?
 
 
-### 실행시 제네릭스의 동작: 소거된 타입 파라미터와 살체화된 타입 파라미터
+### 실행시 제네릭스의 동작: 소거된 타입 파라미터와 실체화된 타입 파라미터
 
 * reify (실체화): 함수를 inline 으로 만들면 타입 인자가 지워지지 않게 할 수 있다.
 * 타입소거가 가능한게, 타입인자를 알고 올바른 타입의 값만 각 리스트에 넣도록 컴파일 타임에서 보장해 준다.
@@ -248,3 +252,20 @@ inline fun < reified T> isA(value: Any) = value is T // 컴파일 가능
 
 
 ### Variance (변성)
+
+* 타입과 클래스의 차이,
+  * 자바에서는 둘의 차이가 없다.
+  * `var x: String` 과 `var x: String?` 둘의 차이는 클래스는 같지만 타입은 다르다.
+  * 코틀린은 적어도 둘이상의 타입을 구성할 수 있다는 뜻이다.
+  * 제네릭에서는 올바른 타입을 얻을려면 제네릭 타입의 타입 파라미터를 구체적인 타입 인자로 바꿔줘야 한다.
+    * 무수히 많은 타입을 만들을 낼 수 있다.
+
+* sub type & super type
+  * 어떤 값의 타입이 변수 타입의 하위 타입인 경우에만 값으 ㄹ변수에 대입하게 허용한다.
+
+* invariant (무공변)
+  * 제니릭타입을 인스턴스화 할때, 타입 인자로 서로 다른 타입이 들어가고 인스턴스 타입 사이의 하위 타입 관계가 성립하지 않을때
+* covaiant (공변적) 
+  * A가 B의 하위타입이면 List<A> 는 List<B> 의 하위타입인 클래스나 인터페이스
+
+
