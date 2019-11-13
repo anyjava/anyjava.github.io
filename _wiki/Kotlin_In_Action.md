@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-11-12 09:17:52 +0900
+updated : 2019-11-13 09:02:12 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -267,5 +267,25 @@ inline fun < reified T> isA(value: Any) = value is T // 컴파일 가능
   * 제니릭타입을 인스턴스화 할때, 타입 인자로 서로 다른 타입이 들어가고 인스턴스 타입 사이의 하위 타입 관계가 성립하지 않을때
 * covaiant (공변적) 
   * A가 B의 하위타입이면 List<A> 는 List<B> 의 하위타입인 클래스나 인터페이스
+
+* 공변성
+
+```kotlin
+interface Producer<out T> { // class 가 T에 대해 공변적이라고 선언
+  fun produce() : T 
+}
+```
+  * 타입 안정서을 보장하기 위해 공변적 파라미터는 항상 아웃 위치에만 있어야 한다.
+    * T 값을 생산할 수는 있지만 소비할 수는 없다
+  * 그래야 쓰는쪽에서 받아서 쓸떄, 타입이 안전하게 된다.
+
+```kotlin
+interface Transformer<T> {
+	fun transform(t: T): T
+               __    ___
+            in 위치   out 위치
+}
+```
+* 단, 생성자 파라미터는 인아웃 어느쪽도 아니다.
 
 
