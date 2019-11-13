@@ -93,6 +93,8 @@ dbms:
     - {fileName: MSA}
 architecture:
     - {fileName: MSA}
+'NoSql,redis':
+    - {fileName: NoSQL}
 'Java,':
     - {fileName: Optional}
 optional:

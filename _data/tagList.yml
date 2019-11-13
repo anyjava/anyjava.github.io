@@ -36,6 +36,7 @@
 - linux
 - 'ms-sql,'
 - 'msa,'
+- 'NoSql,redis'
 - 'oop,'
 - optional
 - querydsl

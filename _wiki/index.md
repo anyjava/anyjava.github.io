@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2019-10-23 09:17:19 +0900
+updated : 2019-11-13 12:00:34 +0900
 tags    :
 toc     : true
 public  : true
@@ -39,6 +39,7 @@ latex   : false
   * [[spock]] 
 * [[DBMS]] 
 	* [[MS-SQL]] 
+  * [[NoSQL]]
 * [[DevOps]]
 	* [[Linux]]
 	* [[Docker]]
