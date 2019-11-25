@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-11-13 09:02:12 +0900
+updated : 2019-11-26 08:51:29 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -287,5 +287,59 @@ interface Transformer<T> {
 }
 ```
 * 단, 생성자 파라미터는 인아웃 어느쪽도 아니다.
+
+
+## 10 장 애노테이션과 리플렉션
+
+### 애노테이션 선언과 적용
+
+* 애노테이션 인자로는 원시 타입의 값, 문자열, enum, 클래스 참조, 다른 애노테이션 클래스, 그리고 이 요소들
+* 애노테이션 인자는 컴파일 타임에 알 수 있어야 한다.
+  * 프로퍼티를 사용할려면 `const`를 붙여 주어야 함.
+
+```kotlin
+const val TEST_TIMEOUT = 100L
+
+@Test(timeout = TEST_TIMEOUT) fun testMethod() { ... }
+```
+
+### 애노테이션 대상
+
+* 자바에서는 그냥 원하는 위치에 붙이면된다.
+* use-site target(사용자 시점 대상) `@get:Rule`
+  * property: 프로퍼티 전체
+  * field 프로퍼티에 의해 생성되는 필드
+  * get 프로퍼티 게터
+  * set 프로퍼티 세터
+  * receiver 확장 함수나 프로퍼티의 수신 객체 파라미터
+  * param 생성자 파라미터
+  * setparam 세터 파라미터
+  * delegate 위임 프포퍼티의 위임 인스턴스를 탐아둔 필드
+  * file 파일 안에 선언된 최상위 함수와 프로퍼티를 담아두는 클래스 -> `@file:JvmName("StringFunctions")`
+
+
+### 애노테이션 선언
+
+`annotation class JsonName(val name: String)`
+
+* 코틸린 annotation 에서는 anme 이라는 프로퍼티를 사용했지만, 자바 애노테이션에서는 value 라는 매소드를 썻다는 점.
+  * value 의 경우 이름붙은 인자구문을 안적어줘도 됨
+* 메타 애노테이션: 애노테이션 클래스에다 붙일 수 있음
+
+* 코틀린에서는 기본적으로 `@Retention` 의 경우 RUNTIME 이다. java 는 아님
+
+
+### 리플렉션
+
+* Json 직렬화 라이브러리는 어떤 객체든 JSON 으로 변환 할 수 있어야 하고, 실행 시점이 되기 전까지는 라이브러리가 직렬화할 프로퍼티나 클래스에 대한 정보를 알 수 없다. 이런경우에 리플렉션을 사용
+
+```kotlin
+class Person(val name: String, val age: Int)
+
+import kotlin.reflect.full.*
+val person = Person("Alice", 29)
+val kClass = person.javaClass.kotlin
+println(kClass.simpleName)
+```
 
 
