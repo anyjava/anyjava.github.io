@@ -47,6 +47,7 @@
 - spring
 - 'spring,'
 - 'spring,springboot,actuactor'
+- springboot
 - 'springboot,'
 - task_executor
 - tdd

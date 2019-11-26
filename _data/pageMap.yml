@@ -124,7 +124,15 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-11-13 12:00:34 +0900'
+    updated: '2019-11-26 10:57:53 +0900'
+    children: []
+initSpring:
+    type: wiki
+    title: 'Spring Boot 프로젝트 초기 설정시 해야 할것'
+    summary: 'Spring Boot 은 많은 것을 자동으로 설정해 주지만 세세하게 설정해 주어야 할 사항이 있다.'
+    parent: Spring
+    url: /wiki/initSpring
+    updated: '2019-11-26 11:06:16 +0900'
     children: []
 Interface:
     type: wiki
@@ -149,7 +157,7 @@ Java:
     parent: index
     url: /wiki/Java
     updated: '2019-11-11 11:54:49 +0900'
-    children: [Enum, Interface, Jackson, JUnit5, Optional, PostContrunct]
+    children: [Enum, Interface, Jackson, Optional, PostContrunct]
 JPA:
     type: wiki
     title: JPA
@@ -162,9 +170,9 @@ JUnit5:
     type: wiki
     title: JUnit5
     summary: JUnit5
-    parent: Java
+    parent: Test_Framwork
     url: /wiki/JUnit5
-    updated: '2019-10-23 09:10:43 +0900'
+    updated: '2019-11-16 13:19:00 +0900'
     children: []
 Jvm:
     type: wiki
@@ -172,7 +180,7 @@ Jvm:
     summary: 'JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리'
     parent: DevOps
     url: /wiki/Jvm
-    updated: '2019-10-17 09:20:06 +0900'
+    updated: '2019-11-21 14:08:30 +0900'
     children: []
 JWT:
     type: wiki
@@ -196,7 +204,7 @@ Kotlin_In_Action:
     summary: 'kia study 요약'
     parent: Kotlin
     url: /wiki/Kotlin_In_Action
-    updated: '2019-11-13 09:02:12 +0900'
+    updated: '2019-11-26 08:51:29 +0900'
     children: []
 Linux:
     type: wiki
@@ -293,7 +301,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, initSpring, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring-Batch, WebFlux, 기본적인내용]
 Spring_Boot:
     type: wiki
     title: 'Spring Boot'
@@ -356,7 +364,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-10-22 00:52:10 +0900'
+    updated: '2019-11-21 13:18:24 +0900'
     children: []
 기본적인내용:
     type: wiki

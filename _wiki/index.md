@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2019-11-13 12:07:33 +0900
+updated : 2019-11-26 10:57:53 +0900
 tags    :
 toc     : true
 public  : true
@@ -21,6 +21,7 @@ latex   : false
 	* [[PostContrunct]]
 	* [[Interface]]
 * [[Spring]]
+  * [[initSpring]]
 	* [[기본적인내용]] 
 	* [[Spring_Boot]]
 	* [[Spring_Boot_Actuator]]

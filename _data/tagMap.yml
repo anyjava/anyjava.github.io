@@ -4,6 +4,7 @@
     - {fileName: Async}
     - {fileName: Bean_Validation}
     - {fileName: BeanScope}
+    - {fileName: initSpring}
     - {fileName: Spring_Boot}
     - {fileName: Spring-Batch}
     - {fileName: WebFlux}
@@ -44,6 +45,8 @@ gradle:
     - {fileName: Gradle}
 http:
     - {fileName: Http}
+springboot:
+    - {fileName: initSpring}
 'java,':
     - {fileName: Interface}
     - {fileName: PostContrunct}
