@@ -23,8 +23,8 @@
 - interface
 - jackson
 - java
-- 'java,'
 - 'Java,'
+- 'java,'
 - jpa
 - 'jpa,'
 - 'json,'
@@ -34,6 +34,7 @@
 - kotlin
 - 'kotlin,kia,kotlin'
 - linux
+- logstash
 - 'ms-sql,'
 - 'msa,'
 - 'NoSql,redis'

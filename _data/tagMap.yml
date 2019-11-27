@@ -86,6 +86,8 @@ linux:
     - {fileName: Linux}
 slf4j:
     - {fileName: Logging}
+logstash:
+    - {fileName: logstash}
 'db,':
     - {fileName: MS-SQL}
 'ms-sql,':

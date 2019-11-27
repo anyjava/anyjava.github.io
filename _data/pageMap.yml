@@ -124,7 +124,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-11-26 10:57:53 +0900'
+    updated: '2019-11-27 10:02:54 +0900'
     children: []
 initSpring:
     type: wiki
@@ -221,6 +221,14 @@ Logging:
     parent: Spring
     url: /wiki/Logging
     updated: '2018-09-05 09:25:23 +0900'
+    children: []
+logstash:
+    type: wiki
+    title: logstash
+    summary: logstash
+    parent: index
+    url: /wiki/logstash
+    updated: '2019-11-27 10:03:40 +0900'
     children: []
 MS-SQL:
     type: wiki
