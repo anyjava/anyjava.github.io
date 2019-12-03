@@ -94,6 +94,14 @@ Enum:
     url: /wiki/Enum
     updated: '2018-09-18 01:50:39 +0900'
     children: []
+Git:
+    type: wiki
+    title: git
+    summary: 'git 활용법'
+    parent: index
+    url: /wiki/Git
+    updated: '2019-12-04 08:50:07 +0900'
+    children: []
 GOF_DesignPattern:
     type: wiki
     title: 'GoF DesignPattern'
@@ -124,7 +132,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-11-27 10:02:54 +0900'
+    updated: '2019-12-04 08:48:56 +0900'
     children: []
 initSpring:
     type: wiki

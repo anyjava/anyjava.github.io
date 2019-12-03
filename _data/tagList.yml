@@ -17,14 +17,15 @@
 - docker
 - 'enum,'
 - 'gc,'
+- git
 - gradle
 - http
 - in
 - interface
 - jackson
 - java
-- 'Java,'
 - 'java,'
+- 'Java,'
 - jpa
 - 'jpa,'
 - 'json,'
