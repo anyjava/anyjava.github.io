@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2019-08-22 13:05:26 +0900
+updated : 2019-12-05 15:14:03 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -33,6 +33,11 @@ adsense : true
             formula = @JoinFormula(value="CASE Ref_Pay_No WHEN 0 THEN NULL ELSE Ref_Pay_No END"))
     private Payment originPayment;
 ```
+
+* Fetch 전략
+  * Default LAZY 를 사용하라. -> Fetch 라고 N+1 문제가 발생하지 않는건 아니다.
+  * [JPA N+1 발생원인과 해결방법](https://www.popit.kr/jpa-n1-%EB%B0%9C%EC%83%9D%EC%9B%90%EC%9D%B8%EA%B3%BC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/)
+  * [jpa oneToOne](https://kwonnam.pe.kr/wiki/java/jpa/one-to-one)
 
 ### Entity Manager 변경 감지(dirty checking)
 
