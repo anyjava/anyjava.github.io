@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2019-12-05 15:14:03 +0900
+updated : 2019-12-05 15:15:39 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -38,6 +38,7 @@ adsense : true
   * Default LAZY 를 사용하라. -> Fetch 라고 N+1 문제가 발생하지 않는건 아니다.
   * [JPA N+1 발생원인과 해결방법](https://www.popit.kr/jpa-n1-%EB%B0%9C%EC%83%9D%EC%9B%90%EC%9D%B8%EA%B3%BC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/)
   * [jpa oneToOne](https://kwonnam.pe.kr/wiki/java/jpa/one-to-one)
+  * [OneToOne 관계에서의 LazyLoading 이슈](https://medium.com/@yongkyu.jang/jpa-%EB%8F%84%EC%9E%85-onetoone-%EA%B4%80%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-lazyloading-%EC%9D%B4%EC%8A%88-1-6d19edf5f4d3)
 
 ### Entity Manager 변경 감지(dirty checking)
 
