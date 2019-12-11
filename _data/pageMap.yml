@@ -132,7 +132,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-12-04 08:48:56 +0900'
+    updated: '2019-12-11 09:16:26 +0900'
     children: []
 initSpring:
     type: wiki
@@ -172,7 +172,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2019-08-22 13:05:26 +0900'
+    updated: '2019-12-05 15:15:39 +0900'
     children: [QueryDsl]
 JUnit5:
     type: wiki
@@ -197,6 +197,14 @@ JWT:
     parent: Web
     url: /wiki/JWT
     updated: '2019-09-03 09:17:20 +0900'
+    children: []
+Kafka:
+    type: wiki
+    title: Kafka
+    summary: Kafka
+    parent: index
+    url: /wiki/Kafka
+    updated: '2019-12-11 09:17:14 +0900'
     children: []
 Kotlin:
     type: wiki

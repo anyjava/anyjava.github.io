@@ -76,6 +76,8 @@ thread:
     - {fileName: Jvm}
 jwt:
     - {fileName: JWT}
+kafka:
+    - {fileName: Kafka}
 kotlin:
     - {fileName: Kotlin}
 'kotlin,kia,kotlin':

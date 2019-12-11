@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2019-12-04 08:48:56 +0900
+updated : 2019-12-11 09:16:26 +0900
 tags    :
 toc     : true
 public  : true
@@ -54,6 +54,7 @@ latex   : false
 	* [[CORS (Cross Origin Resource Sharing)]]
 	* [[XSS]]
 * [[logstash]]
+* [[Kafka]]
 * [[CodeReview]]
 	*  
 
