@@ -3,7 +3,7 @@ layout  : wiki
 title   : Linux 
 summary : linux 활용에 관한 모든것
 date    : 2018-08-21 18:28:36 +0900
-updated : 2019-06-20 17:37:21 +0900
+updated : 2019-12-23 11:37:50 +0900
 tags    : linux
 toc     : true
 public  : true
@@ -51,6 +51,14 @@ grep -A라인수 -B 라인수 # A: 뒤 몇라인, B: 앞 몇라인
 ```
 while true ; do echo -n "$(date) " ; ss -s | grep timewait ; sleep 1 ; done
 ```
+
+### 시스템 모니터링
+
+* top
+  * shift + M: 메모리 사용량별, / P: CPU 사용량별
+  * f 눌러서 추가로 보여질 필드를 고를 수 있다.
+
+* free -g: 메모리 사용량을 G 단위로 보여줌 
 
 ### Linux Utils
 
