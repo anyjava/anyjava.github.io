@@ -3,7 +3,7 @@ layout  : wiki
 title   : Linux 
 summary : linux 활용에 관한 모든것
 date    : 2018-08-21 18:28:36 +0900
-updated : 2019-12-23 11:37:50 +0900
+updated : 2019-12-26 14:42:13 +0900
 tags    : linux
 toc     : true
 public  : true
@@ -52,6 +52,15 @@ grep -A라인수 -B 라인수 # A: 뒤 몇라인, B: 앞 몇라인
 while true ; do echo -n "$(date) " ; ss -s | grep timewait ; sleep 1 ; done
 ```
 
+* sed
+  * [sed 명령어](https://m.blog.naver.com/PostView.nhn?blogId=minki0127&logNo=220677180665&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
+
+```bash
+$ sed '$d' fileName  # file의 마지막 라인 삭제
+$ sed '1d' fileName  # file의 첫번째 라인만 삭제
+$ sed '1,3d' fileName  # file의 1~3번째 라인만 삭제
+```
+
 ### 시스템 모니터링
 
 * top
@@ -66,3 +75,4 @@ while true ; do echo -n "$(date) " ; ss -s | grep timewait ; sleep 1 ; done
 	* [logroate 설정방법](https://www.manualfactory.net/10547)
 * supervisor : process 관리 해주는 도구 
 	* [참고](https://jwkcp.github.io/2016/11/07/how-to-use-supervisor-in-one-minute/)
+
