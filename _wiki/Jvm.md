@@ -3,7 +3,7 @@ layout  : wiki
 title   : JVM 성능 튜닝 
 summary : JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리
 date    : 2018-12-03 19:31:45 +0900
-updated : 2019-11-21 14:08:30 +0900
+updated : 2019-12-26 19:02:12 +0900
 tags    : devops, jvm, gc, thread
 toc     : true
 public  : true
@@ -46,6 +46,8 @@ adsense : true
 * Heap Size = 운영체제 메모리 - 2GB 정도로 하되 최대 31GB까지만 사용한다.
 	* (swappiness=0 or 1이라는 가정하에- 그렇지 않으면 Swap 발생으로 성능저하가 일어날 수 있어보임)
 * 웹 애플리케이션은 운영체제 메모리중 2GB 정도를 남기고 사용한다.  (ElasticSearch 제외. 각 솔루션은 솔루션 가이드를 따른다.)
+  * ES 는 보통 50:50 으로 사용하라고 권장한다.
+  * 실제 JVM application 에서 file I/O 작업이 많다면 50:50 으로 설정하기 바람.
 	* 단, 31GB 까지만 사용한다. 32GB가 넘어가게 되면 메모리 포인터의 크기가 64bit가 되면서 메모리 점유율이 크게 늘어난다.
 	* 32GB미만은 32bit 포인터 사용. 
 
