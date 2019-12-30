@@ -3,7 +3,7 @@ layout  : wiki
 title   : Kotlin In Action
 summary : kia study 요약
 date    : 2019-10-01 08:50:10 +0900
-updated : 2019-11-26 08:51:29 +0900
+updated : 2019-12-30 13:08:32 +0900
 tags    : kotlin,kia,kotlin in action
 toc     : true
 public  : true
@@ -343,3 +343,7 @@ println(kClass.simpleName)
 ```
 
 
+## 부록, 코루틴과 Async / Await 
+
+* [kotlin coroutines](https://speakerdeck.com/taehwandev/kotlin-coroutines)
+* [Kotlin Coroutine 튜토리얼](https://medium.com/@jeho1335/kotlin-coroutine-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-c2c0a063b2fd)
