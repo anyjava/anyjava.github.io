@@ -86,6 +86,14 @@ Docker:
     url: /wiki/Docker
     updated: '2019-08-09 16:39:33 +0900'
     children: []
+Document:
+    type: wiki
+    title: Document
+    summary: '문서화에 필요한 정보들'
+    parent: index
+    url: /wiki/Document
+    updated: '2020-01-14 15:44:17 +0900'
+    children: []
 Enum:
     type: wiki
     title: Enum
@@ -132,7 +140,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2019-12-11 09:16:26 +0900'
+    updated: '2020-01-14 15:43:30 +0900'
     children: []
 initSpring:
     type: wiki
@@ -188,7 +196,7 @@ Jvm:
     summary: 'JVM 관련하여 GC 종류, thread dump 보는 방법등을 정리'
     parent: DevOps
     url: /wiki/Jvm
-    updated: '2019-11-21 14:08:30 +0900'
+    updated: '2019-12-26 19:02:12 +0900'
     children: []
 JWT:
     type: wiki
@@ -220,7 +228,7 @@ Kotlin_In_Action:
     summary: 'kia study 요약'
     parent: Kotlin
     url: /wiki/Kotlin_In_Action
-    updated: '2019-11-26 08:51:29 +0900'
+    updated: '2019-12-30 13:08:32 +0900'
     children: []
 Linux:
     type: wiki
@@ -228,7 +236,7 @@ Linux:
     summary: 'linux 활용에 관한 모든것'
     parent: DevOps
     url: /wiki/Linux
-    updated: '2019-06-20 17:37:21 +0900'
+    updated: '2019-12-26 14:42:13 +0900'
     children: []
 Logging:
     type: wiki

@@ -31,6 +31,8 @@ devops:
     - {fileName: DevOps}
 docker:
     - {fileName: Docker}
+document:
+    - {fileName: Document}
 'enum,':
     - {fileName: Enum}
 java:
