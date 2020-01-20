@@ -414,3 +414,11 @@ XSS:
     url: /wiki/성능튜닝
     updated: '2019-07-23 01:47:35 +0900'
     children: []
+연말정산:
+    type: wiki
+    title: 연말정산
+    summary: 'mac에서 연말정산 해보자.'
+    parent: index
+    url: /wiki/연말정산
+    updated: '2020-01-20 17:42:45 +0900'
+    children: []
