@@ -132,6 +132,8 @@ spring:
     - {fileName: Spring_Boot}
 'spring,springboot,actuactor':
     - {fileName: Spring_Boot_Actuator}
+'spring,cloud':
+    - {fileName: Spring_Cloud}
 batch:
     - {fileName: Spring-Batch}
 'tdd,':
