@@ -6,6 +6,14 @@
     url: /wiki/2018년회고
     updated: '2019-01-02 02:15:30 +0900'
     children: []
+Architecture:
+    type: wiki
+    title: architecture
+    summary: architecture
+    parent: index
+    url: /wiki/Architecture
+    updated: '2020-01-31 08:54:40 +0900'
+    children: []
 Async:
     type: wiki
     title: Async
@@ -140,7 +148,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-01-20 17:43:04 +0900'
+    updated: '2020-01-31 08:51:49 +0900'
     children: []
 initSpring:
     type: wiki
@@ -180,7 +188,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2019-12-05 15:15:39 +0900'
+    updated: '2020-01-30 11:09:22 +0900'
     children: [QueryDsl]
 JUnit5:
     type: wiki

@@ -1,5 +1,8 @@
 회고:
     - {fileName: 2018년회고}
+architecture:
+    - {fileName: Architecture}
+    - {fileName: MSA}
 'spring,':
     - {fileName: Async}
     - {fileName: Bean_Validation}
@@ -101,8 +104,6 @@ logstash:
 dbms:
     - {fileName: MS-SQL}
 'msa,':
-    - {fileName: MSA}
-architecture:
     - {fileName: MSA}
 'NoSql,redis':
     - {fileName: NoSQL}

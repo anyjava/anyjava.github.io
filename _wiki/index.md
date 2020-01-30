@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-01-20 17:43:04 +0900
+updated : 2020-01-31 08:51:49 +0900
 tags    :
 toc     : true
 public  : true
@@ -16,6 +16,7 @@ latex   : false
 * [[개발환경세팅]]
 * [[Git]]
 * [[Document]]
+* [[Architecture]]
 * [[Java]]
 	* [[Jackson]] 
 	* [[Enum]]
