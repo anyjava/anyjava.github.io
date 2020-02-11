@@ -3,7 +3,7 @@ layout  : wiki
 title   : Gradle
 summary : Gradle 에 필요한 것들을 정리
 date    : 2019-08-20 09:52:22 +0900
-updated : 2020-02-12 06:52:02 +0900
+updated : 2020-02-12 07:12:53 +0900
 tags    : gradle
 toc     : true
 public  : true
@@ -16,7 +16,10 @@ adsense : true
 
 # Gradle
 
+### Gradle Docker Build Plugin
 
+* [Docker Build Spring Boot](https://spring.io/guides/gs/spring-boot-docker/)
+  * [timestamp 문제](https://github.com/GoogleContainerTools/jib/issues/413)
 
 ### Gradle Project Report Plugin
 
