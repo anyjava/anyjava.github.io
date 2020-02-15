@@ -40,6 +40,7 @@
 - logstash
 - 'ms-sql,'
 - 'msa,'
+- 'nas,'
 - 'NoSql,redis'
 - 'oop,'
 - optional
@@ -54,6 +55,7 @@
 - 'spring,springboot,actuactor'
 - springboot
 - 'springboot,'
+- synology
 - task_executor
 - tdd
 - 'tdd,'

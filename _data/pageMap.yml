@@ -132,7 +132,7 @@ Gradle:
     summary: 'Gradle 에 필요한 것들을 정리'
     parent: index
     url: /wiki/Gradle
-    updated: '2019-08-20 09:54:58 +0900'
+    updated: '2020-02-12 07:12:53 +0900'
     children: []
 Http:
     type: wiki
@@ -148,7 +148,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-01-31 08:51:49 +0900'
+    updated: '2020-02-16 01:41:54 +0900'
     children: []
 initSpring:
     type: wiki
@@ -180,7 +180,7 @@ Java:
     summary: ""
     parent: index
     url: /wiki/Java
-    updated: '2019-11-11 11:54:49 +0900'
+    updated: '2020-02-05 09:27:49 +0900'
     children: [Enum, Interface, Jackson, Optional, PostContrunct]
 JPA:
     type: wiki
@@ -373,6 +373,14 @@ Spring-Batch:
     parent: Spring
     url: /wiki/Spring-Batch
     updated: '2018-12-11 21:25:56 +0900'
+    children: []
+Synology:
+    type: wiki
+    title: 'Synology NAS'
+    summary: 'Synology NAS 사용 팁'
+    parent: index
+    url: /wiki/Synology
+    updated: '2020-02-16 01:42:56 +0900'
     children: []
 Test_Framework:
     type: wiki

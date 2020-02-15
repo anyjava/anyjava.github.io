@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-01-31 08:51:49 +0900
+updated : 2020-02-16 01:41:54 +0900
 tags    :
 toc     : true
 public  : true
@@ -58,7 +58,7 @@ latex   : false
 * [[logstash]]
 * [[Kafka]]
 * [[CodeReview]]
-	*  
+* [[Synology]]
 
 * [[Books]]
 	* [[Refactoring]] 

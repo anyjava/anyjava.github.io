@@ -137,6 +137,10 @@ spring:
     - {fileName: Spring_Cloud}
 batch:
     - {fileName: Spring-Batch}
+'nas,':
+    - {fileName: Synology}
+synology:
+    - {fileName: Synology}
 'tdd,':
     - {fileName: Test_Framework}
 junit:
