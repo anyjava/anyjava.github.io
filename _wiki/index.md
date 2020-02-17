@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-02-16 01:41:54 +0900
+updated : 2020-02-17 17:44:11 +0900
 tags    :
 toc     : true
 public  : true
@@ -56,7 +56,9 @@ latex   : false
 	* [[CORS (Cross Origin Resource Sharing)]]
 	* [[XSS]]
 * [[logstash]]
-* [[Kafka]]
+* [[Infra]]
+  * [[Kafka]]
+  * [[Airflow]]
 * [[CodeReview]]
 * [[Synology]]
 

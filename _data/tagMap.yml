@@ -1,5 +1,9 @@
 회고:
     - {fileName: 2018년회고}
+'airflow,':
+    - {fileName: Airflow}
+datapipline:
+    - {fileName: Airflow}
 architecture:
     - {fileName: Architecture}
     - {fileName: MSA}
@@ -52,6 +56,8 @@ gradle:
     - {fileName: Gradle}
 http:
     - {fileName: Http}
+infra:
+    - {fileName: Infra}
 springboot:
     - {fileName: initSpring}
 'java,':

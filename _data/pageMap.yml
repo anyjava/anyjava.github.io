@@ -6,6 +6,14 @@
     url: /wiki/2018년회고
     updated: '2019-01-02 02:15:30 +0900'
     children: []
+Airflow:
+    type: wiki
+    title: Airflow
+    summary: Airflow
+    parent: Infra
+    url: /wiki/Airflow
+    updated: '2020-02-17 17:45:06 +0900'
+    children: []
 Architecture:
     type: wiki
     title: architecture
@@ -148,8 +156,16 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-02-16 01:41:54 +0900'
+    updated: '2020-02-17 17:44:11 +0900'
     children: []
+Infra:
+    type: wiki
+    title: Infra
+    summary: 'Infra 관련 내용'
+    parent: index
+    url: /wiki/Infra
+    updated: '2020-02-17 17:39:02 +0900'
+    children: [Airflow, Kafka]
 initSpring:
     type: wiki
     title: 'Spring Boot 프로젝트 초기 설정시 해야 할것'
@@ -218,9 +234,9 @@ Kafka:
     type: wiki
     title: Kafka
     summary: Kafka
-    parent: index
+    parent: Infra
     url: /wiki/Kafka
-    updated: '2019-12-11 09:17:14 +0900'
+    updated: '2020-02-17 17:43:49 +0900'
     children: []
 Kotlin:
     type: wiki
