@@ -36,9 +36,11 @@
 - junit
 - 'jvm,'
 - jwt
+- 'k8s,'
 - kafka
 - kotlin
 - 'kotlin,kia,kotlin'
+- kubernetes
 - linux
 - logstash
 - 'ms-sql,'

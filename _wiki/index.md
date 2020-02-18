@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-02-17 17:44:11 +0900
+updated : 2020-02-18 14:45:21 +0900
 tags    :
 toc     : true
 public  : true
@@ -59,6 +59,7 @@ latex   : false
 * [[Infra]]
   * [[Kafka]]
   * [[Airflow]]
+  * [[k8s]]
 * [[CodeReview]]
 * [[Synology]]
 

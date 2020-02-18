@@ -87,6 +87,10 @@ thread:
     - {fileName: Jvm}
 jwt:
     - {fileName: JWT}
+'k8s,':
+    - {fileName: k8s}
+kubernetes:
+    - {fileName: k8s}
 kafka:
     - {fileName: Kafka}
 kotlin:

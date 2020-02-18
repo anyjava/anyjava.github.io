@@ -20,7 +20,7 @@ Architecture:
     summary: architecture
     parent: index
     url: /wiki/Architecture
-    updated: '2020-01-31 08:54:40 +0900'
+    updated: '2020-02-18 14:35:35 +0900'
     children: []
 Async:
     type: wiki
@@ -156,7 +156,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-02-17 17:44:11 +0900'
+    updated: '2020-02-18 14:45:21 +0900'
     children: []
 Infra:
     type: wiki
@@ -165,7 +165,7 @@ Infra:
     parent: index
     url: /wiki/Infra
     updated: '2020-02-17 17:39:02 +0900'
-    children: [Airflow, Kafka]
+    children: [Airflow, k8s, Kafka]
 initSpring:
     type: wiki
     title: 'Spring Boot 프로젝트 초기 설정시 해야 할것'
@@ -229,6 +229,14 @@ JWT:
     parent: Web
     url: /wiki/JWT
     updated: '2019-09-03 09:17:20 +0900'
+    children: []
+k8s:
+    type: wiki
+    title: k8s
+    summary: Kubernetes
+    parent: Infra
+    url: /wiki/k8s
+    updated: '2020-02-18 14:47:09 +0900'
     children: []
 Kafka:
     type: wiki
