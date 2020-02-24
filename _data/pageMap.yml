@@ -140,7 +140,7 @@ Gradle:
     summary: 'Gradle 에 필요한 것들을 정리'
     parent: index
     url: /wiki/Gradle
-    updated: '2020-02-12 07:12:53 +0900'
+    updated: '2020-02-24 14:13:11 +0900'
     children: []
 Http:
     type: wiki
@@ -156,7 +156,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-02-18 14:45:21 +0900'
+    updated: '2020-02-24 14:13:46 +0900'
     children: []
 Infra:
     type: wiki
@@ -365,7 +365,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [Async, Bean_Validation, BeanScope, initSpring, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring_Cloud, Spring-Batch, WebFlux, 기본적인내용]
+    children: [Async, Bean_Validation, BeanScope, initSpring, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring_Cloud, Spring_Test, Spring-Batch, WebFlux, 기본적인내용]
 Spring_Boot:
     type: wiki
     title: 'Spring Boot'
@@ -389,6 +389,14 @@ Spring_Cloud:
     parent: Spring
     url: /wiki/Spring_Cloud
     updated: '2020-01-23 19:27:51 +0900'
+    children: []
+Spring_Test:
+    type: wiki
+    title: 'Spring Test'
+    summary: 'Spring test 를 위한 정리'
+    parent: Spring
+    url: /wiki/Spring_Test
+    updated: '2020-02-24 14:56:06 +0900'
     children: []
 Spring-Batch:
     type: wiki

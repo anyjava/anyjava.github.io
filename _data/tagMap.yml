@@ -145,6 +145,8 @@ spring:
     - {fileName: Spring_Boot_Actuator}
 'spring,cloud':
     - {fileName: Spring_Cloud}
+'spring,test,springboot,junit':
+    - {fileName: Spring_Test}
 batch:
     - {fileName: Spring-Batch}
 'nas,':

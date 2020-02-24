@@ -58,6 +58,7 @@
 - 'spring,'
 - 'spring,cloud'
 - 'spring,springboot,actuactor'
+- 'spring,test,springboot,junit'
 - springboot
 - 'springboot,'
 - synology
