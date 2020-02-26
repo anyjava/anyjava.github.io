@@ -3,7 +3,7 @@ layout  : wiki
 title   : JUnit5
 summary : JUnit5
 date    : 2019-10-23 09:09:38 +0900
-updated : 2019-11-16 13:19:00 +0900
+updated : 2020-02-26 09:09:39 +0900
 tags    : test,junit
 toc     : true
 public  : true
@@ -38,4 +38,5 @@ adsense : true
 
 * [JUnit 5 Conditional Test Examples - 환경condition 조작](https://www.mkyong.com/junit5/junit-5-conditional-test-examples/)
 * [Junit5 with Spring boot](https://cheese10yun.github.io/junit5-in-spring/)
+* [JUnit Assertion에서 AssertJ로 갈아탈 때 소소한 팁](https://www.popit.kr/junit-assertion%EC%97%90%EC%84%9C-assertj%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%88-%EB%95%8C-%EC%86%8C%EC%86%8C%ED%95%9C-%ED%8C%81/)
 
