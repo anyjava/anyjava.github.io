@@ -3,7 +3,7 @@ layout  : wiki
 title   : Gradle
 summary : Gradle 에 필요한 것들을 정리
 date    : 2019-08-20 09:52:22 +0900
-updated : 2020-02-24 14:13:11 +0900
+updated : 2020-03-03 08:21:04 +0900
 tags    : gradle
 toc     : true
 public  : true
@@ -39,3 +39,4 @@ compileQuerydsl {
 ### 참고링크
 
 * [Multi-project](https://docs.gradle.org/current/userguide/multi_project_builds.html#multi_project_builds)
+* [api vs implementation](https://tjandroid.blogspot.com/2018/11/api-implementation.html)
