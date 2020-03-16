@@ -1,5 +1,6 @@
 - action
 - 'airflow,'
+- amqp
 - annoatation
 - architecture
 - 'async,'
@@ -43,6 +44,8 @@
 - kubernetes
 - linux
 - logstash
+- 'message,'
+- 'mq,'
 - 'ms-sql,'
 - 'msa,'
 - 'nas,'
@@ -50,6 +53,8 @@
 - 'oop,'
 - optional
 - querydsl
+- 'queue,'
+- 'rabbit,'
 - secure
 - 'secure,'
 - slf4j

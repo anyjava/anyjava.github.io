@@ -127,6 +127,17 @@ annoatation:
     - {fileName: QueryDsl}
 querydsl:
     - {fileName: QueryDsl}
+'mq,':
+    - {fileName: RabbitMQ}
+    - {fileName: RabbitMQ}
+'message,':
+    - {fileName: RabbitMQ}
+'queue,':
+    - {fileName: RabbitMQ}
+'rabbit,':
+    - {fileName: RabbitMQ}
+amqp:
+    - {fileName: RabbitMQ}
 secure:
     - {fileName: SecureCoding}
 'spock,':

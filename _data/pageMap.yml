@@ -20,7 +20,7 @@ Architecture:
     summary: architecture
     parent: index
     url: /wiki/Architecture
-    updated: '2020-02-18 14:35:35 +0900'
+    updated: '2020-02-25 18:50:34 +0900'
     children: []
 Async:
     type: wiki
@@ -100,7 +100,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2019-08-09 16:39:33 +0900'
+    updated: '2020-03-06 21:06:00 +0900'
     children: []
 Document:
     type: wiki
@@ -140,7 +140,7 @@ Gradle:
     summary: 'Gradle 에 필요한 것들을 정리'
     parent: index
     url: /wiki/Gradle
-    updated: '2020-02-24 14:13:11 +0900'
+    updated: '2020-03-03 08:21:04 +0900'
     children: []
 Http:
     type: wiki
@@ -156,7 +156,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-02-24 14:13:46 +0900'
+    updated: '2020-03-16 19:12:27 +0900'
     children: []
 Infra:
     type: wiki
@@ -165,7 +165,7 @@ Infra:
     parent: index
     url: /wiki/Infra
     updated: '2020-02-17 17:39:02 +0900'
-    children: [Airflow, k8s, Kafka]
+    children: [Airflow, k8s, Kafka, RabbitMQ]
 initSpring:
     type: wiki
     title: 'Spring Boot 프로젝트 초기 설정시 해야 할것'
@@ -212,7 +212,7 @@ JUnit5:
     summary: JUnit5
     parent: Test_Framwork
     url: /wiki/JUnit5
-    updated: '2019-11-16 13:19:00 +0900'
+    updated: '2020-02-26 09:09:39 +0900'
     children: []
 Jvm:
     type: wiki
@@ -334,6 +334,14 @@ QueryDsl:
     url: /wiki/QueryDsl
     updated: '2018-12-30 19:50:22 +0900'
     children: []
+RabbitMQ:
+    type: wiki
+    title: 'Rabbit MQ'
+    summary: 'Rabbit MQ'
+    parent: Infra
+    url: /wiki/RabbitMQ
+    updated: '2020-03-16 22:53:05 +0900'
+    children: []
 Refactoring:
     type: wiki
     title: Refactoring
@@ -452,7 +460,7 @@ XSS:
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2019-11-21 13:18:24 +0900'
+    updated: '2020-03-13 09:07:43 +0900'
     children: []
 기본적인내용:
     type: wiki
