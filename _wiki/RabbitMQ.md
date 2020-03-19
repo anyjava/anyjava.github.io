@@ -3,7 +3,7 @@ layout  : wiki
 title   : Rabbit MQ
 summary : Rabbit MQ
 date    : 2020-03-16 19:12:33 +0900
-updated : 2020-03-16 22:53:55 +0900
+updated : 2020-03-19 14:54:29 +0900
 tags    : mq, message, queue, mq, rabbit, amqp
 toc     : true
 public  : true
@@ -17,6 +17,37 @@ adsense : true
 ## Rabbit MQ 사용하기 
 
 * Rabbit MQ 의 특성
+
+
+  * ISO 표준(ISO/IEC 19464) AMQP 구현
+  * 비동기처리를 위한 메시지큐 브로커
+  * erlang과 java 언어로 만들어짐 (clustering 등을 위한 고속 데이터 전송하는 부분에 erlang이 사용된 것으로 추정)
+  * 분산처리를 고려한 MQ ( Cluster, Federation )
+  * 고가용성 보장 (High Availability)
+  * Publish/Subscribe 방식 지원
+  * 다양한 plugin 지원
+
+* 주요 용어
+  
+  * Producer: 메시지를 보내는 Application
+  * Queue: 메시지를 저장하는 버퍼 (Queue는 Exchange 에 Biding 된다)
+  * Consumer: 메시지를 받는 User Applicagtion 
+  * Exchange: Producer 가 전달한 메시지를 Queue 에 전달하는 역할
+    * Exchange Type
+
+|type|설명|특징|
+|:--------:|:-------|:--------:|
+|fanout| 알려진 모든 Queue에 메시지 전달 함|Broadcast|
+|direct| 지정된 routingKey를 가진 Queue에만 메시지 전달 함|unicast|
+|topic| 지정된 패턴 바인딩 형태에 일치하는 Queue에만 메시지 전달. #(여러단어), *(한단어)를 통한 문자열 패턴 매칭 | multicast |
+|header| 헤더에 포함된 key=value의 일치조건에 따라서 메시지 전달|multicast|
+
+  * Bindings: Exchange 와 Queue 를 연결해주는 것
+  * Routing: Exchange 가 Queue 에 메시지를 전달하는 과정
+  * RoutingKey: Exchange 가 Queue 에 메시지를 전달하는 기준
+
+
+* 기타정보
 
   * code level 에서 Queue exchange 들을 선언해서 관리하는게 좋다.
   * RabbitMQ 관리자는 사용하지 않는 Queue 는 자동삭제 되게 하는걸 추천함.
