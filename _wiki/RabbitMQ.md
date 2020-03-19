@@ -3,7 +3,7 @@ layout  : wiki
 title   : Rabbit MQ
 summary : Rabbit MQ
 date    : 2020-03-16 19:12:33 +0900
-updated : 2020-03-19 14:54:29 +0900
+updated : 2020-03-19 14:56:44 +0900
 tags    : mq, message, queue, mq, rabbit, amqp
 toc     : true
 public  : true
@@ -32,6 +32,9 @@ adsense : true
   * Producer: 메시지를 보내는 Application
   * Queue: 메시지를 저장하는 버퍼 (Queue는 Exchange 에 Biding 된다)
   * Consumer: 메시지를 받는 User Applicagtion 
+  * Bindings: Exchange 와 Queue 를 연결해주는 것
+  * Routing: Exchange 가 Queue 에 메시지를 전달하는 과정
+  * RoutingKey: Exchange 가 Queue 에 메시지를 전달하는 기준
   * Exchange: Producer 가 전달한 메시지를 Queue 에 전달하는 역할
     * Exchange Type
 
@@ -41,10 +44,6 @@ adsense : true
 |direct| 지정된 routingKey를 가진 Queue에만 메시지 전달 함|unicast|
 |topic| 지정된 패턴 바인딩 형태에 일치하는 Queue에만 메시지 전달. #(여러단어), *(한단어)를 통한 문자열 패턴 매칭 | multicast |
 |header| 헤더에 포함된 key=value의 일치조건에 따라서 메시지 전달|multicast|
-
-  * Bindings: Exchange 와 Queue 를 연결해주는 것
-  * Routing: Exchange 가 Queue 에 메시지를 전달하는 과정
-  * RoutingKey: Exchange 가 Queue 에 메시지를 전달하는 기준
 
 
 * 기타정보
