@@ -156,7 +156,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-03-16 19:12:27 +0900'
+    updated: '2020-06-10 01:37:19 +0900'
     children: []
 Infra:
     type: wiki
@@ -212,7 +212,7 @@ JUnit5:
     summary: JUnit5
     parent: Test_Framwork
     url: /wiki/JUnit5
-    updated: '2020-02-26 09:09:39 +0900'
+    updated: '2020-04-03 18:48:43 +0900'
     children: []
 Jvm:
     type: wiki
@@ -340,7 +340,7 @@ RabbitMQ:
     summary: 'Rabbit MQ'
     parent: Infra
     url: /wiki/RabbitMQ
-    updated: '2020-03-16 22:53:05 +0900'
+    updated: '2020-03-19 14:56:44 +0900'
     children: []
 Refactoring:
     type: wiki
@@ -358,6 +358,14 @@ SecureCoding:
     url: /wiki/SecureCoding
     updated: '2018-10-29 12:53:47 +0900'
     children: [XSS]
+SonarQube:
+    type: wiki
+    title: SonarQube
+    summary: SonarQube
+    parent: index
+    url: /wiki/SonarQube
+    updated: '2020-06-10 01:38:44 +0900'
+    children: []
 spock:
     type: wiki
     title: spock

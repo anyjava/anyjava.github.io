@@ -58,6 +58,7 @@
 - secure
 - 'secure,'
 - slf4j
+- sonarqube
 - 'spock,'
 - spring
 - 'spring,'
