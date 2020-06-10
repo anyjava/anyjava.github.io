@@ -3,7 +3,7 @@ layout  : wiki
 title   : JUnit5
 summary : JUnit5
 date    : 2019-10-23 09:09:38 +0900
-updated : 2020-04-03 18:48:43 +0900
+updated : 2020-06-10 21:44:19 +0900
 tags    : test,junit
 toc     : true
 public  : true
@@ -41,3 +41,4 @@ adsense : true
 * [JUnit Assertion에서 AssertJ로 갈아탈 때 소소한 팁](https://www.popit.kr/junit-assertion%EC%97%90%EC%84%9C-assertj%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%88-%EB%95%8C-%EC%86%8C%EC%86%8C%ED%95%9C-%ED%8C%81/)
 * [JUnit5로 계층 구조의 테스트 코드 작성하기](https://johngrib.github.io/wiki/junit5-nested/)
 * [Guide to JUnit 5 Parameterized Tests](https://www.baeldung.com/parameterized-tests-junit-5)
+* [JUnit Custom Display Name](https://www.baeldung.com/junit-custom-display-name-generator)
