@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-06-10 01:37:19 +0900
+updated : 2020-06-18 00:52:38 +0900
 tags    :
 toc     : true
 public  : true
@@ -50,6 +50,7 @@ latex   : false
 	* [[Docker]]
 	* [[성능튜닝]]
 		* [[Jvm]] 
+  * [[haproxy]]
 * [[Web]]
 	* [[Http]]
   * [[JWT]]

@@ -93,7 +93,7 @@ DevOps:
     parent: index
     url: /wiki/DevOps
     updated: '2018-12-03 19:31:45 +0900'
-    children: [Docker, Jvm, Linux, 성능튜닝]
+    children: [Docker, haproxy, Jvm, Linux, 성능튜닝]
 Docker:
     type: wiki
     title: Docker
@@ -142,6 +142,14 @@ Gradle:
     url: /wiki/Gradle
     updated: '2020-03-03 08:21:04 +0900'
     children: []
+haproxy:
+    type: wiki
+    title: haproxy
+    summary: haproxy
+    parent: DevOps
+    url: /wiki/haproxy
+    updated: '2020-06-18 02:10:38 +0900'
+    children: []
 Http:
     type: wiki
     title: Http
@@ -156,7 +164,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-06-10 01:37:19 +0900'
+    updated: '2020-06-18 00:52:38 +0900'
     children: []
 Infra:
     type: wiki
@@ -212,7 +220,7 @@ JUnit5:
     summary: JUnit5
     parent: Test_Framwork
     url: /wiki/JUnit5
-    updated: '2020-04-03 18:48:43 +0900'
+    updated: '2020-06-10 21:44:19 +0900'
     children: []
 Jvm:
     type: wiki
@@ -364,7 +372,7 @@ SonarQube:
     summary: SonarQube
     parent: index
     url: /wiki/SonarQube
-    updated: '2020-06-10 01:38:44 +0900'
+    updated: '2020-06-10 09:43:33 +0900'
     children: []
 spock:
     type: wiki

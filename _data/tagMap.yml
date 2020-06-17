@@ -54,6 +54,8 @@ designpattern:
     - {fileName: GOF_DesignPattern}
 gradle:
     - {fileName: Gradle}
+haproxy:
+    - {fileName: haproxy}
 http:
     - {fileName: Http}
 infra:

@@ -23,6 +23,7 @@
 - 'gc,'
 - git
 - gradle
+- haproxy
 - http
 - in
 - infra
