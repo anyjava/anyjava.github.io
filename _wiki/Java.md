@@ -3,7 +3,7 @@ layout  : category
 title   : Java 
 summary : 
 date    : 2018-09-13 08:35:45 +0900
-updated : 2020-02-05 09:27:49 +0900
+updated : 2020-08-21 02:24:26 +0900
 tags    : java
 toc     : true
 public  : true
@@ -27,5 +27,10 @@ latex   : false
 ## Java Stream
 
 * [Pair 를 Map 으로 변환](https://gist.github.com/cfollet/ea70c95736e66bae05a7c28105b8eb11)
+
+## Java Collection API 
+
+* [Eclipse 재단의 Collection API](https://www.eclipse.org/collections/)
+  * 성능이 좋다고 한다. 써봐야지 
 
 # 하위 페이지 
