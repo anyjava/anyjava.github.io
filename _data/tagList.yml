@@ -1,3 +1,6 @@
+- 성능
+- '연말정산,공인인증서'
+- 회고
 - action
 - 'airflow,'
 - amqp
@@ -24,14 +27,15 @@
 - git
 - gradle
 - haproxy
+- 'hbase,nosql'
 - http
 - in
 - infra
 - interface
 - jackson
 - java
-- 'Java,'
 - 'java,'
+- 'Java,'
 - jpa
 - 'jpa,'
 - 'json,'
@@ -80,6 +84,3 @@
 - validation
 - webflux
 - xss
-- 성능
-- '연말정산,공인인증서'
-- 회고
