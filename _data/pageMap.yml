@@ -12,7 +12,7 @@
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2020-03-13 09:07:43 +0900'
+    updated: '2020-09-03 01:08:01 +0900'
     children: []
 기본적인내용:
     type: wiki
@@ -37,6 +37,14 @@
     parent: index
     url: /wiki/연말정산
     updated: '2020-01-20 17:46:58 +0900'
+    children: []
+조직관리:
+    type: wiki
+    title: 조직관리
+    summary: '조직관리에 유용한 정보 정리'
+    parent: index
+    url: /wiki/조직관리
+    updated: '2020-09-07 10:47:10 +0900'
     children: []
 Airflow:
     type: wiki
@@ -132,7 +140,7 @@ Docker:
     summary: 'Docker 에 대한 모든것'
     parent: DevOps
     url: /wiki/Docker
-    updated: '2020-03-06 21:06:00 +0900'
+    updated: '2020-08-28 01:18:29 +0900'
     children: []
 Document:
     type: wiki
@@ -204,7 +212,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-08-25 03:16:02 +0900'
+    updated: '2020-09-07 10:46:08 +0900'
     children: []
 Infra:
     type: wiki

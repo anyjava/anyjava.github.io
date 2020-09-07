@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-08-25 03:16:02 +0900
+updated : 2020-09-07 10:46:08 +0900
 tags    :
 toc     : true
 public  : true
@@ -68,6 +68,7 @@ latex   : false
 * [[SonarQube]]
 * [[Synology]]
 
+* [[조직관리]]
 * [[Books]]
 	* [[Refactoring]] 
 	* [[GOF_DesignPattern]]

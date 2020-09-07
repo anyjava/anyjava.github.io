@@ -22,6 +22,8 @@ tip:
     - {fileName: 성능튜닝}
 '연말정산,공인인증서':
     - {fileName: 연말정산}
+manager:
+    - {fileName: 조직관리}
 'airflow,':
     - {fileName: Airflow}
 datapipline:
@@ -48,8 +50,6 @@ datastructure:
     - {fileName: DataStructure}
 devops:
     - {fileName: DevOps}
-docker:
-    - {fileName: Docker}
 document:
     - {fileName: Document}
 'enum,':
