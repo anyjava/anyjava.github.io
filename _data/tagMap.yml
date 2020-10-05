@@ -121,6 +121,7 @@ logstash:
     - {fileName: logstash}
 'db,':
     - {fileName: MS-SQL}
+    - {fileName: Transaction}
 'ms-sql,':
     - {fileName: MS-SQL}
 dbms:
@@ -182,6 +183,8 @@ synology:
     - {fileName: Test_Framework}
 junit:
     - {fileName: Test_Framework}
+transaction:
+    - {fileName: Transaction}
 webflux:
     - {fileName: WebFlux}
 'secure,':

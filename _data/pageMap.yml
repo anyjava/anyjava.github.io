@@ -125,7 +125,7 @@ DBMS:
     parent: index
     url: /wiki/DBMS
     updated: '2018-12-06 18:54:36 +0900'
-    children: [Hbase, MS-SQL]
+    children: [Hbase, MS-SQL, Transaction]
 DevOps:
     type: wiki
     title: DevOps
@@ -212,7 +212,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-09-07 10:46:08 +0900'
+    updated: '2020-10-06 02:03:47 +0900'
     children: []
 Infra:
     type: wiki
@@ -356,7 +356,7 @@ MSA:
     summary: 'Microservice Architecture'
     parent: index
     url: /wiki/MSA
-    updated: '2019-10-29 18:40:41 +0900'
+    updated: '2020-09-15 03:04:13 +0900'
     children: []
 NoSQL:
     type: wiki
@@ -494,6 +494,14 @@ Test_Framework:
     url: /wiki/Test_Framework
     updated: '2018-11-28 08:25:51 +0900'
     children: [spock]
+Transaction:
+    type: wiki
+    title: 트랜잭션
+    summary: 트랜잭션
+    parent: DBMS
+    url: /wiki/Transaction
+    updated: '2020-10-06 02:07:35 +0900'
+    children: []
 Web:
     type: wiki
     title: Web

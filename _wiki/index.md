@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2020-09-07 10:46:08 +0900
+updated : 2020-10-06 02:03:47 +0900
 tags    :
 toc     : true
 public  : true
@@ -43,6 +43,7 @@ latex   : false
   * [[spock]] 
   * [[JUnit5]]
 * [[DBMS]] 
+  * [[Transaction]]
 	* [[MS-SQL]] 
   * [[NoSQL]]
   * [[Hbase]]
