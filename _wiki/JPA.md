@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2020-01-30 11:09:22 +0900
+updated : 2020-12-22 02:10:39 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -98,3 +98,13 @@ public class LongRevisionEntity implements Serializable {
 * bulk insert 가 필요할때, JpaRepository 를 이용하면 정상적으로 안될 수 있다.
 * spring batch 로 writer 구현시 아래와 같이 해보면 좋을듯, (아직 직접 해보진 않음)
   * [Bulk and Batch imports with Spring Boot and the CrudRepository](https://www.hameister.org/SpringBootBulkImportWithCrudRepository.html)
+
+* 중요한건 entity ID type 을 INDENTITY 로 설정하지말고 비즈니스 로직에서 생성한다.
+* 그리고 아래 글들을 참고해서 batch insert 설정을 활성화 한다.
+* 그리고 꼭 필요한게 @version annotaion 이 필요하다.
+  * version 을 명시하지 않는다면, save 전에 merge 를 위한 select 퀄리가 발생함.
+
+### batch insert 관련 볼만한글
+  * [MySQL 환경의 스프링부트에 하이버네이트 배치 설정 해보기](https://woowabros.github.io/experience/2020/09/23/hibernate-batch.html)
+  * [Spring Batch ItemWriter 성능 비교](https://jojoldu.tistory.com/507)
+
