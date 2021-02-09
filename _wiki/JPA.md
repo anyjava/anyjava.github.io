@@ -3,7 +3,7 @@ layout  : wiki
 title   : JPA
 summary : JPA 활용에 대한 모든 것 
 date    : 2018-08-28 09:32:31 +0900
-updated : 2020-12-22 02:10:39 +0900
+updated : 2021-02-10 01:07:34 +0900
 tags    : jpa
 toc     : true
 public  : true
@@ -108,3 +108,6 @@ public class LongRevisionEntity implements Serializable {
   * [MySQL 환경의 스프링부트에 하이버네이트 배치 설정 해보기](https://woowabros.github.io/experience/2020/09/23/hibernate-batch.html)
   * [Spring Batch ItemWriter 성능 비교](https://jojoldu.tistory.com/507)
 
+### sqlcommneter 
+
+* 구글에서 만든 쿼리 코멘터 - [https://google.github.io/sqlcommenter/](https://google.github.io/sqlcommenter/) 
