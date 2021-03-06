@@ -3,7 +3,7 @@ layout  : category
 title   : Java 
 summary : 
 date    : 2018-09-13 08:35:45 +0900
-updated : 2020-08-21 02:24:26 +0900
+updated : 2021-03-07 01:01:10 +0900
 tags    : java
 toc     : true
 public  : true
@@ -32,5 +32,13 @@ latex   : false
 
 * [Eclipse 재단의 Collection API](https://www.eclipse.org/collections/)
   * 성능이 좋다고 한다. 써봐야지 
+
+
+## Java lambda
+
+* [Java Reflection, but Faster](https://dzone.com/articles/java-reflection-but-faster)
+** LambdaMethodFactory를 통해 메소드에 접근하면, "Reflection보다 더 빠르게 접근 가능했다더라" 라고 하는 포스트가 있었습니다.
+** 출처 - [자바 스터디 15주차 - 람다식](https://www.notion.so/15-757106032d85452cbc60cf1808d53978)
+
 
 # 하위 페이지 
