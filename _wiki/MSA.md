@@ -3,7 +3,7 @@ layout  : wiki
 title   : MSA
 summary : Microservice Architecture
 date    : 2019-10-21 15:30:38 +0900
-updated : 2020-09-15 03:04:13 +0900
+updated : 2021-04-28 13:46:36 +0900
 tags    : msa, architecture
 toc     : true
 public  : true
@@ -45,3 +45,4 @@ adsense : true
 
 * [Delta: A Data Synchronization and Enrichment Platform](https://medium.com/netflix-techblog/delta-a-data-synchronization-and-enrichment-platform-e82c36a79aee)
   * MSA 환경에서 Data Sync 에 대한 이야기. Delta 가 open 될것 같은데 유심히 봐야할듯
+* [MSA fail stories](https://docs.google.com/spreadsheets/d/1vjnjAII_8TZBv2XhFHra7kEQzQpOHSZpFIWDjynYYf0/edit)
