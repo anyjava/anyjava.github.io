@@ -12,7 +12,7 @@
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2020-09-03 01:08:01 +0900'
+    updated: '2021-04-20 06:14:25 +0900'
     children: []
 기본적인내용:
     type: wiki
@@ -28,7 +28,7 @@
     summary: 'Java Application (Spring) 성능 튜닝에 대해서'
     parent: DevOps
     url: /wiki/성능튜닝
-    updated: '2019-07-23 01:47:35 +0900'
+    updated: '2020-11-05 01:19:08 +0900'
     children: []
 연말정산:
     type: wiki
@@ -38,13 +38,21 @@
     url: /wiki/연말정산
     updated: '2020-01-20 17:46:58 +0900'
     children: []
+정규식:
+    type: wiki
+    title: 정규식
+    summary: 정규식
+    parent: index
+    url: /wiki/정규식
+    updated: '2021-05-25 21:42:09 +0900'
+    children: []
 조직관리:
     type: wiki
     title: 조직관리
     summary: '조직관리에 유용한 정보 정리'
     parent: index
     url: /wiki/조직관리
-    updated: '2020-09-07 10:47:10 +0900'
+    updated: '2021-04-16 18:04:20 +0900'
     children: []
 Airflow:
     type: wiki
@@ -125,7 +133,7 @@ DBMS:
     parent: index
     url: /wiki/DBMS
     updated: '2018-12-06 18:54:36 +0900'
-    children: [Hbase, MS-SQL, Transaction]
+    children: [Hbase, MS-SQL, MySQL, Transaction]
 DevOps:
     type: wiki
     title: DevOps
@@ -180,7 +188,7 @@ Gradle:
     summary: 'Gradle 에 필요한 것들을 정리'
     parent: index
     url: /wiki/Gradle
-    updated: '2020-03-03 08:21:04 +0900'
+    updated: '2021-03-09 09:56:51 +0900'
     children: []
 haproxy:
     type: wiki
@@ -212,7 +220,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2020-10-06 02:03:47 +0900'
+    updated: '2021-05-25 21:39:05 +0900'
     children: []
 Infra:
     type: wiki
@@ -252,7 +260,7 @@ Java:
     summary: ""
     parent: index
     url: /wiki/Java
-    updated: '2020-08-21 02:24:26 +0900'
+    updated: '2021-03-07 01:01:10 +0900'
     children: [Enum, Interface, Jackson, Optional, PostContrunct]
 JPA:
     type: wiki
@@ -260,7 +268,7 @@ JPA:
     summary: 'JPA 활용에 대한 모든 것'
     parent: Spring
     url: /wiki/JPA
-    updated: '2020-01-30 11:09:22 +0900'
+    updated: '2021-02-10 01:07:34 +0900'
     children: [QueryDsl]
 JUnit5:
     type: wiki
@@ -292,7 +300,7 @@ k8s:
     summary: Kubernetes
     parent: Infra
     url: /wiki/k8s
-    updated: '2020-02-18 14:47:09 +0900'
+    updated: '2021-04-28 13:45:55 +0900'
     children: []
 Kafka:
     type: wiki
@@ -308,7 +316,7 @@ Kotlin:
     summary: Kotlin
     parent: index
     url: /wiki/Kotlin
-    updated: '2019-10-01 08:49:55 +0900'
+    updated: '2021-03-28 19:11:39 +0900'
     children: [Kotlin_In_Action]
 Kotlin_In_Action:
     type: wiki
@@ -356,7 +364,15 @@ MSA:
     summary: 'Microservice Architecture'
     parent: index
     url: /wiki/MSA
-    updated: '2020-09-15 03:04:13 +0900'
+    updated: '2021-04-28 13:46:36 +0900'
+    children: []
+MySQL:
+    type: wiki
+    title: MySQL
+    summary: MySQL
+    parent: DBMS
+    url: /wiki/MySQL
+    updated: '2021-04-03 04:03:59 +0900'
     children: []
 NoSQL:
     type: wiki
@@ -444,7 +460,7 @@ Spring_Boot:
     summary: 'Spring Boot 를 사용하면서 알게 된점'
     parent: Spring
     url: /wiki/Spring_Boot
-    updated: '2019-02-01 20:47:54 +0900'
+    updated: '2021-02-14 00:08:53 +0900'
     children: []
 Spring_Boot_Actuator:
     type: wiki
@@ -500,7 +516,7 @@ Transaction:
     summary: 트랜잭션
     parent: DBMS
     url: /wiki/Transaction
-    updated: '2020-10-06 02:07:35 +0900'
+    updated: '2020-10-06 02:22:36 +0900'
     children: []
 Web:
     type: wiki

@@ -53,6 +53,7 @@
 - 'mq,'
 - 'ms-sql,'
 - 'msa,'
+- mysql
 - 'nas,'
 - 'NoSql,redis'
 - 'oop,'
@@ -60,6 +61,7 @@
 - querydsl
 - 'queue,'
 - 'rabbit,'
+- regex
 - secure
 - 'secure,'
 - slf4j
@@ -80,7 +82,6 @@
 - 'test,junit'
 - thread
 - tip
-- tools
 - transaction
 - validation
 - webflux

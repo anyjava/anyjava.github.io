@@ -1,7 +1,5 @@
 회고:
     - {fileName: 2018년회고}
-tools:
-    - {fileName: 개발환경세팅}
 'spring,':
     - {fileName: 기본적인내용}
     - {fileName: 성능튜닝}
@@ -22,6 +20,8 @@ tip:
     - {fileName: 성능튜닝}
 '연말정산,공인인증서':
     - {fileName: 연말정산}
+regex:
+    - {fileName: 정규식}
 manager:
     - {fileName: 조직관리}
 'airflow,':
@@ -128,6 +128,8 @@ dbms:
     - {fileName: MS-SQL}
 'msa,':
     - {fileName: MSA}
+mysql:
+    - {fileName: MySQL}
 'NoSql,redis':
     - {fileName: NoSQL}
 'Java,':
