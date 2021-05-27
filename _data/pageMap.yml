@@ -220,7 +220,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2021-05-25 21:39:05 +0900'
+    updated: '2021-05-27 18:48:24 +0900'
     children: []
 Infra:
     type: wiki
@@ -501,6 +501,14 @@ Synology:
     parent: index
     url: /wiki/Synology
     updated: '2020-02-16 01:42:56 +0900'
+    children: []
+Tesla:
+    type: wiki
+    title: Tesla
+    summary: '테슬라 차량을 타면서 알아야할것들을 정리함.'
+    parent: index
+    url: /wiki/Tesla
+    updated: '2021-05-27 18:49:35 +0900'
     children: []
 Test_Framework:
     type: wiki

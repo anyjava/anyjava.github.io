@@ -50,6 +50,7 @@
 - logstash
 - manager
 - 'message,'
+- model
 - 'mq,'
 - 'ms-sql,'
 - 'msa,'
@@ -78,6 +79,7 @@
 - task_executor
 - tdd
 - 'tdd,'
+- 'tesla,'
 - 'test,'
 - 'test,junit'
 - thread
@@ -86,3 +88,4 @@
 - validation
 - webflux
 - xss
+- y

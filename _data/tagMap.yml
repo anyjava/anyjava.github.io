@@ -181,6 +181,12 @@ batch:
     - {fileName: Synology}
 synology:
     - {fileName: Synology}
+'tesla,':
+    - {fileName: Tesla}
+model:
+    - {fileName: Tesla}
+y:
+    - {fileName: Tesla}
 'tdd,':
     - {fileName: Test_Framework}
 junit:
