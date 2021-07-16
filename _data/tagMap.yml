@@ -44,6 +44,11 @@ bean_scope:
 book:
     - {fileName: Books}
     - {fileName: Refactoring}
+'book,':
+    - {fileName: CleanAgile}
+    - {fileName: GOF_DesignPattern}
+agile:
+    - {fileName: CleanAgile}
 codereview:
     - {fileName: CodeReview}
 datastructure:
@@ -60,8 +65,6 @@ java:
     - {fileName: Spring_Boot}
 git:
     - {fileName: Git}
-'book,':
-    - {fileName: GOF_DesignPattern}
 designpattern:
     - {fileName: GOF_DesignPattern}
 gradle:

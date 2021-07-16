@@ -12,7 +12,7 @@
     summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
     parent: index
     url: /wiki/개발환경세팅
-    updated: '2021-04-20 06:14:25 +0900'
+    updated: '2021-07-12 12:37:05 +0900'
     children: []
 기본적인내용:
     type: wiki
@@ -52,7 +52,7 @@
     summary: '조직관리에 유용한 정보 정리'
     parent: index
     url: /wiki/조직관리
-    updated: '2021-04-16 18:04:20 +0900'
+    updated: '2021-07-02 16:33:03 +0900'
     children: []
 Airflow:
     type: wiki
@@ -101,7 +101,15 @@ Books:
     parent: index
     url: /wiki/Books
     updated: '2019-04-24 08:50:30 +0900'
-    children: [GOF_DesignPattern, Refactoring]
+    children: [CleanAgile, GOF_DesignPattern, Refactoring]
+CleanAgile:
+    type: wiki
+    title: 클린애자일
+    summary: '새로운 세대를 위한 애자일 가치와 실천'
+    parent: Books
+    url: /wiki/CleanAgile
+    updated: '2021-07-16 10:05:02 +0900'
+    children: []
 CodeReview:
     type: wiki
     title: CodeReivew
@@ -220,7 +228,7 @@ index:
     summary: 'anyjava wiki index'
     parent: null
     url: /wiki/index
-    updated: '2021-05-27 18:48:24 +0900'
+    updated: '2021-07-16 09:58:00 +0900'
     children: []
 Infra:
     type: wiki
