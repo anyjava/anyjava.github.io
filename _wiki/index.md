@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2021-07-16 09:58:00 +0900
+updated : 2021-08-11 01:14:20 +0900
 tags    :
 toc     : true
 public  : true
@@ -66,6 +66,7 @@ latex   : false
   * [[Airflow]]
   * [[k8s]]
   * [[RabbitMQ]]
+  * [[AWS]]
 * [[CodeReview]]
 * [[SonarQube]]
 * [[Synology]]
