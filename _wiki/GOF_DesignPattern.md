@@ -3,7 +3,7 @@ layout  : wiki
 title   : GoF DesignPattern
 summary : GoF 디자인 패턴 
 date    : 2019-04-24 08:52:39 +0900
-updated : 2021-08-11 20:54:31 +0900
+updated : 2021-08-18 20:16:28 +0900
 tags    : book, designpattern
 toc     : true
 public  : true
@@ -32,3 +32,14 @@ adsense : true
 * 참고: 
   * [stackoverflow](https://stackoverflow.com/a/1384476/5270692)  
   * [Delegation, Composition and Aggregation 이해하기](https://ryukato.github.io/oop/2012/09/19/delegation-composition-aggregation.html) 
+
+
+## Chapter 3. 생성패턴
+
+### 추상 팩토리 패턴 (Abstract Factory Pattern)
+
+* `Abstract Factory`, `AbstractProduct` 두개로 추상화된 인터페이스를 의존하게 된다. 중요한 포인트는 생성되는 객체의 집합을 하나의 팩토리에서 정의를 하는게 중요하다.
+  * 집한군을 생성하는게 아니라면 Factory Method Pattern 을 이용하는게 좋을듯 하다.
+  * 단점은, 만들어야할 제품군이 추가되는 요구사항에 유연하지 못하다. -> 동적타입언어를 이용한다면 이부분도 유연하게 구현은 가능할듯
+
+
