@@ -3,7 +3,7 @@ layout  : wiki
 title   : GoF DesignPattern
 summary : GoF 디자인 패턴 
 date    : 2019-04-24 08:52:39 +0900
-updated : 2021-08-18 20:16:28 +0900
+updated : 2021-09-01 20:18:01 +0900
 tags    : book, designpattern
 toc     : true
 public  : true
@@ -42,4 +42,4 @@ adsense : true
   * 집한군을 생성하는게 아니라면 Factory Method Pattern 을 이용하는게 좋을듯 하다.
   * 단점은, 만들어야할 제품군이 추가되는 요구사항에 유연하지 못하다. -> 동적타입언어를 이용한다면 이부분도 유연하게 구현은 가능할듯
 
-
+* [싱글턴패턴관련](https://lee1535.tistory.com/75?category=819409)
