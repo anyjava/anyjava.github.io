@@ -12,6 +12,8 @@
     - {fileName: WebFlux}
 tip:
     - {fileName: 기본적인내용}
+'조직관리,Data':
+    - {fileName: 데이터조직}
 'java,':
     - {fileName: 성능튜닝}
     - {fileName: Interface}
@@ -37,6 +39,8 @@ architecture:
     - {fileName: Async}
 task_executor:
     - {fileName: Async}
+'aws,cloud':
+    - {fileName: AWS}
 'bean,':
     - {fileName: Bean_Validation}
 validation:

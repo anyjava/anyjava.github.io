@@ -3,7 +3,7 @@ layout  : wiki
 title   : index
 summary : anyjava wiki index 
 date    : 2018-08-15 19:41:36 +0900
-updated : 2021-08-11 20:50:55 +0900
+updated : 2022-07-04 01:51:13 +0900
 tags    :
 toc     : true
 public  : true
@@ -74,6 +74,7 @@ latex   : false
 * [[Android]]
 
 * [[조직관리]]
+  * [[데이터조직]]
 * [[Books]]
 	* [[CleanAgile]]
 	* [[Refactoring]] 
