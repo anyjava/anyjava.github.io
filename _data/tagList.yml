@@ -89,6 +89,7 @@
 - thread
 - tip
 - transaction
+- uuid
 - validation
 - webflux
 - xss

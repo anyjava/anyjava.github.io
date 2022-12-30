@@ -202,6 +202,8 @@ junit:
     - {fileName: Test_Framework}
 transaction:
     - {fileName: Transaction}
+uuid:
+    - {fileName: UUID}
 webflux:
     - {fileName: WebFlux}
 'secure,':

@@ -60,7 +60,7 @@
     summary: '조직관리에 유용한 정보 정리'
     parent: index
     url: /wiki/조직관리
-    updated: '2022-05-09 09:22:02 +0900'
+    updated: '2022-11-09 10:06:12 +0900'
     children: [데이터조직]
 Airflow:
     type: wiki
@@ -557,6 +557,14 @@ Transaction:
     parent: DBMS
     url: /wiki/Transaction
     updated: '2020-10-06 02:22:36 +0900'
+    children: []
+UUID:
+    type: wiki
+    title: UUID
+    summary: 'UUID 대한 모든것'
+    parent: index
+    url: /wiki/UUID
+    updated: '2022-12-30 15:39:03 +0900'
     children: []
 Web:
     type: wiki
