@@ -3,7 +3,7 @@ layout  : wiki
 title   : k8s
 summary : Kubernetes
 date    : 2020-02-18 14:45:23 +0900
-updated : 2021-04-28 13:45:55 +0900
+updated : 2023-01-16 16:29:21 +0900
 tags    : k8s, kubernetes
 toc     : true
 public  : true
@@ -18,6 +18,9 @@ adsense : true
 
 * [Kubernetes Ingress Controllers](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) 
   * k8s igress type 별로 기능들을 비교해둔 표
+
+* [Probe default value](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#configure-probes)
+
 
 ## 참고자료 
 
