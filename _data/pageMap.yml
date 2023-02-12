@@ -198,6 +198,14 @@ Enum:
     url: /wiki/Enum
     updated: '2018-09-18 01:50:39 +0900'
     children: []
+flutter:
+    type: wiki
+    title: flutter
+    summary: flutter
+    parent: index
+    url: /wiki/flutter
+    updated: '2023-02-13 01:29:54 +0900'
+    children: []
 Git:
     type: wiki
     title: git
@@ -332,7 +340,7 @@ k8s:
     summary: Kubernetes
     parent: Infra
     url: /wiki/k8s
-    updated: '2021-04-28 13:45:55 +0900'
+    updated: '2023-01-19 11:08:01 +0900'
     children: []
 Kafka:
     type: wiki

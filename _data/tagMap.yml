@@ -69,6 +69,10 @@ java:
     - {fileName: Enum}
     - {fileName: Java}
     - {fileName: Spring_Boot}
+'flutter,':
+    - {fileName: flutter}
+mobile:
+    - {fileName: flutter}
 git:
     - {fileName: Git}
 designpattern:
