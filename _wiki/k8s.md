@@ -3,7 +3,7 @@ layout  : wiki
 title   : k8s
 summary : Kubernetes
 date    : 2020-02-18 14:45:23 +0900
-updated : 2023-01-19 11:08:01 +0900
+updated : 2023-02-16 14:11:10 +0900
 tags    : k8s, kubernetes
 toc     : true
 public  : true
@@ -36,3 +36,4 @@ adsense : true
 * [blue-green-deploy](https://codefresh.io/kubernetes-tutorial/blue-green-deploy/) 
 * [Container부터 다시 살펴보는 Kubernetes Pod 동작 원리](https://hyojun.me/~k8s-pod-internal) 
 * [Kubernetes Failure Stories](https://k8s.af/)
+* [kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
