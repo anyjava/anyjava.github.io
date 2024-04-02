@@ -1,7 +1,3 @@
-- 성능
-- '연말정산,공인인증서'
-- '조직관리,Data'
-- 회고
 - action
 - agile
 - 'airflow,'
@@ -51,6 +47,7 @@
 - kotlin
 - 'kotlin,kia,kotlin'
 - kubernetes
+- 'LB,LoadBalancing'
 - linux
 - logstash
 - manager
@@ -96,3 +93,7 @@
 - webflux
 - xss
 - y
+- 성능
+- '연말정산,공인인증서'
+- '조직관리,Data'
+- 회고

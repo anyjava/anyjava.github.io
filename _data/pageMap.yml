@@ -6,62 +6,6 @@
     url: /wiki/2018년회고
     updated: '2019-01-02 02:15:30 +0900'
     children: []
-개발환경세팅:
-    type: wiki
-    title: 개발환경세팅
-    summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
-    parent: index
-    url: /wiki/개발환경세팅
-    updated: '2021-10-10 17:33:23 +0900'
-    children: []
-기본적인내용:
-    type: wiki
-    title: 'Spring 기본적인 내용'
-    summary: 'Spring 에 관련한 소소한 팁들을 정리합니다.'
-    parent: Spring
-    url: /wiki/기본적인내용
-    updated: '2018-11-07 09:56:27 +0900'
-    children: []
-데이터조직:
-    type: wiki
-    title: 데이터조직
-    summary: '데이터 조직 만들기'
-    parent: 조직관리
-    url: /wiki/데이터조직
-    updated: '2022-07-04 02:00:32 +0900'
-    children: []
-성능튜닝:
-    type: wiki
-    title: 성능튜닝
-    summary: 'Java Application (Spring) 성능 튜닝에 대해서'
-    parent: DevOps
-    url: /wiki/성능튜닝
-    updated: '2020-11-05 01:19:08 +0900'
-    children: []
-연말정산:
-    type: wiki
-    title: 연말정산
-    summary: 'mac에서 연말정산 해보자.'
-    parent: index
-    url: /wiki/연말정산
-    updated: '2020-01-20 17:46:58 +0900'
-    children: []
-정규식:
-    type: wiki
-    title: 정규식
-    summary: 정규식
-    parent: index
-    url: /wiki/정규식
-    updated: '2021-05-25 21:42:09 +0900'
-    children: []
-조직관리:
-    type: wiki
-    title: 조직관리
-    summary: '조직관리에 유용한 정보 정리'
-    parent: index
-    url: /wiki/조직관리
-    updated: '2022-11-09 10:06:12 +0900'
-    children: [데이터조직]
 Airflow:
     type: wiki
     title: Airflow
@@ -173,7 +117,7 @@ DevOps:
     parent: index
     url: /wiki/DevOps
     updated: '2018-12-03 19:31:45 +0900'
-    children: [성능튜닝, Docker, haproxy, Jvm, Linux]
+    children: [Docker, haproxy, Jvm, Linux, LoadBalancing, 성능튜닝]
 Docker:
     type: wiki
     title: Docker
@@ -340,7 +284,7 @@ k8s:
     summary: Kubernetes
     parent: Infra
     url: /wiki/k8s
-    updated: '2023-01-19 11:08:01 +0900'
+    updated: '2023-02-16 14:11:10 +0900'
     children: []
 Kafka:
     type: wiki
@@ -373,6 +317,14 @@ Linux:
     parent: DevOps
     url: /wiki/Linux
     updated: '2019-12-26 14:42:13 +0900'
+    children: []
+LoadBalancing:
+    type: wiki
+    title: LoadBalancing
+    summary: ""
+    parent: DevOps
+    url: /wiki/LoadBalancing
+    updated: '2024-04-02 17:10:57 +0900'
     children: []
 Logging:
     type: wiki
@@ -493,7 +445,7 @@ Spring:
     parent: index
     url: /wiki/Spring
     updated: '2018-09-05 09:22:27 +0900'
-    children: [기본적인내용, Async, Bean_Validation, BeanScope, initSpring, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring_Cloud, Spring_Test, Spring-Batch, WebFlux]
+    children: [Async, Bean_Validation, BeanScope, initSpring, JPA, Logging, Spring_Boot, Spring_Boot_Actuator, Spring_Cloud, Spring_Test, Spring-Batch, WebFlux, 기본적인내용]
 Spring_Boot:
     type: wiki
     title: 'Spring Boot'
@@ -598,3 +550,59 @@ XSS:
     url: /wiki/XSS
     updated: '2018-10-29 13:02:42 +0900'
     children: []
+개발환경세팅:
+    type: wiki
+    title: 개발환경세팅
+    summary: '새 PC 를 받았을때 개발환경 세팅방법 (Java, Spring 개발 기준)'
+    parent: index
+    url: /wiki/개발환경세팅
+    updated: '2021-10-10 17:33:23 +0900'
+    children: []
+기본적인내용:
+    type: wiki
+    title: 'Spring 기본적인 내용'
+    summary: 'Spring 에 관련한 소소한 팁들을 정리합니다.'
+    parent: Spring
+    url: /wiki/기본적인내용
+    updated: '2018-11-07 09:56:27 +0900'
+    children: []
+데이터조직:
+    type: wiki
+    title: 데이터조직
+    summary: '데이터 조직 만들기'
+    parent: 조직관리
+    url: /wiki/데이터조직
+    updated: '2022-07-04 02:00:32 +0900'
+    children: []
+성능튜닝:
+    type: wiki
+    title: 성능튜닝
+    summary: 'Java Application (Spring) 성능 튜닝에 대해서'
+    parent: DevOps
+    url: /wiki/성능튜닝
+    updated: '2020-11-05 01:19:08 +0900'
+    children: []
+연말정산:
+    type: wiki
+    title: 연말정산
+    summary: 'mac에서 연말정산 해보자.'
+    parent: index
+    url: /wiki/연말정산
+    updated: '2020-01-20 17:46:58 +0900'
+    children: []
+정규식:
+    type: wiki
+    title: 정규식
+    summary: 정규식
+    parent: index
+    url: /wiki/정규식
+    updated: '2021-05-25 21:42:09 +0900'
+    children: []
+조직관리:
+    type: wiki
+    title: 조직관리
+    summary: '조직관리에 유용한 정보 정리'
+    parent: index
+    url: /wiki/조직관리
+    updated: '2022-11-09 10:06:12 +0900'
+    children: [데이터조직]
