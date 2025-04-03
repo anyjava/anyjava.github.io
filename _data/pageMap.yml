@@ -1,3 +1,11 @@
+2025-04-03-jpa-projects-error:
+    type: blog
+    title: 'Spring Data JPA Projections의 생성자 타입 매칭 오류 해결하기'
+    summary: 'JPA Projections 사용 시 발생하는 "Missing constructor" 에러의 원인과 해결 방법을 알아봅니다.'
+    parent: null
+    url: /blog/2024/03/21/jpa-projects-error
+    updated: '2024-03-21 15:30:00 +0900'
+    children: []
 2018년회고:
     type: wiki
     title: '2018년 회고'
