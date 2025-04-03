@@ -2,11 +2,12 @@
 layout  : post
 title   : Spring Data JPA Projections의 생성자 타입 매칭 오류 해결하기
 summary : JPA Projections 사용 시 발생하는 "Missing constructor" 에러의 원인과 해결 방법을 알아봅니다.
-date    : 2024-03-21 15:30:00 +0900
+date    : 2025-04-03 10:30:00 +0900
 tags    : [SpringBoot, JPA, Hibernate, Database, ErrorHandling, Java]
 toc     : true
 comment : true
 public  : true
+adsense : true
 ---
 
 * TOC
