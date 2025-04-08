@@ -2,6 +2,7 @@
     - {fileName: 2018년회고}
 '[SpringBoot,':
     - {fileName: 2025-04-03-jpa-projects-error}
+    - {fileName: 2025-04-08-test-value-object}
 'JPA,':
     - {fileName: 2025-04-03-jpa-projects-error}
 'Hibernate,':
@@ -12,6 +13,19 @@
     - {fileName: 2025-04-03-jpa-projects-error}
 'Java]':
     - {fileName: 2025-04-03-jpa-projects-error}
+'DDD,':
+    - {fileName: 2025-04-08-test-value-object}
+'ValueObject,':
+    - {fileName: 2025-04-08-test-value-object}
+'UnitTest,':
+    - {fileName: 2025-04-08-test-value-object}
+'Java,':
+    - {fileName: 2025-04-08-test-value-object}
+    - {fileName: Optional}
+'CleanCode,':
+    - {fileName: 2025-04-08-test-value-object}
+'TestCode]':
+    - {fileName: 2025-04-08-test-value-object}
 'airflow,':
     - {fileName: Airflow}
 datapipline:
@@ -147,8 +161,6 @@ mysql:
     - {fileName: MySQL}
 'NoSql,redis':
     - {fileName: NoSQL}
-'Java,':
-    - {fileName: Optional}
 optional:
     - {fileName: Optional}
 annoatation:
