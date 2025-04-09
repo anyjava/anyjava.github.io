@@ -26,6 +26,22 @@
     - {fileName: 2025-04-08-test-value-object}
 'TestCode]':
     - {fileName: 2025-04-08-test-value-object}
+'[AI,':
+    - {fileName: 2025-04-09-mcp-security}
+'LLM,':
+    - {fileName: 2025-04-09-mcp-security}
+'MCP,':
+    - {fileName: 2025-04-09-mcp-security}
+'보안,':
+    - {fileName: 2025-04-09-mcp-security}
+'PromptInjection,':
+    - {fileName: 2025-04-09-mcp-security}
+'Privacy,':
+    - {fileName: 2025-04-09-mcp-security}
+'Anthropic,':
+    - {fileName: 2025-04-09-mcp-security}
+'Claude]':
+    - {fileName: 2025-04-09-mcp-security}
 'airflow,':
     - {fileName: Airflow}
 datapipline:

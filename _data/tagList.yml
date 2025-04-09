@@ -1,3 +1,4 @@
+- '[AI,'
 - '[SpringBoot,'
 - action
 - agile
@@ -5,6 +6,7 @@
 - amqp
 - android
 - annoatation
+- 'Anthropic,'
 - architecture
 - 'async,'
 - 'aws,cloud'
@@ -13,6 +15,7 @@
 - 'bean,'
 - book
 - 'book,'
+- 'Claude]'
 - 'CleanCode,'
 - codereview
 - 'Database,'
@@ -57,8 +60,10 @@
 - kubernetes
 - 'LB,LoadBalancing'
 - linux
+- 'LLM,'
 - logstash
 - manager
+- 'MCP,'
 - 'message,'
 - mobile
 - model
@@ -70,6 +75,8 @@
 - 'NoSql,redis'
 - 'oop,'
 - optional
+- 'Privacy,'
+- 'PromptInjection,'
 - querydsl
 - 'queue,'
 - 'rabbit,'
@@ -104,6 +111,7 @@
 - webflux
 - xss
 - y
+- '보안,'
 - 성능
 - '연말정산,공인인증서'
 - '조직관리,Data'

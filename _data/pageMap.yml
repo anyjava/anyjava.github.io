@@ -6,6 +6,14 @@
     url: /blog/2025/04/03/jpa-projects-error
     updated: '2025-04-03 10:30:00 +0900'
     children: []
+2025-04-09-mcp-security:
+    type: blog
+    title: 'Model Context Protocol(MCP), 편리하지만 보안 위협도 함께 온다'
+    summary: 'LLM을 더 똑똑하게 만들어주는 MCP, 그러나 그만큼 위험도 커졌습니다. 프롬프트 인젝션, 민감정보 유출, 신뢰되지 않은 MCP 서버 등 MCP 도입 시 주의해야 할 보안 위협을 쉽게 정리해봅니다.'
+    parent: null
+    url: /blog/2025/04/03/mcp-security
+    updated: '2025-04-03 10:30:00 +0900'
+    children: []
 2025-04-08-test-value-object:
     type: blog
     title: 'Spring 의존성 없이 도메인 로직 테스트하기 - Money Value Object로 알아보는 효과적인 단위 테스트'
